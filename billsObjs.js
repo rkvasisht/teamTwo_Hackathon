@@ -1,7 +1,7 @@
-[
+const bills = [
   {
     "cf_ord_res_no_": " 312456",
-    "committee": " Planning,Land Use, and Sustainability",
+    "committee": "Planning, Land Use, and Sustainability",
     "date_data_retrieved": "July 13 2012 7:43 AM ",
     "date_introduced_referred_to_committee": " Jul 16,2012",
     "record_type": "Clerk File ",
@@ -11,7 +11,7 @@
   },
   {
     "cf_ord_res_no_": " 312455",
-    "committee": " Government Performance andFinance",
+    "committee": "Government Performance and Finance",
     "date_data_retrieved": "July 13 2012 7:43 AM ",
     "date_introduced_referred_to_committee": " Jul 16,2012",
     "record_type": "Clerk File ",
@@ -21,7 +21,7 @@
   },
   {
     "cf_ord_res_no_": " 312432",
-    "committee": " Planning, Land Use,and Sustainability",
+    "committee": "Planning, Land Use, and Sustainability",
     "date_data_retrieved": "July 13 2012 7:43 AM ",
     "date_introduced_referred_to_committee": " Jun 25,2012",
     "record_type": "Clerk File ",
@@ -31,7 +31,7 @@
   },
   {
     "cf_ord_res_no_": " 312426",
-    "committee": " Public Safety, Civil Rights, andTechnology",
+    "committee": "Public Safety, Civil Rights, and Technology",
     "date_data_retrieved": "July 13 2012 7:43 AM ",
     "date_introduced_referred_to_committee": " Jun 18,2012",
     "record_type": "Clerk File ",
@@ -51,7 +51,7 @@
   },
   {
     "cf_ord_res_no_": " 312413",
-    "committee": " Energy and Environment",
+    "committee": "Energy and Environment",
     "date_data_retrieved": "July 13 2012 7:43 AM ",
     "date_introduced_referred_to_committee": " Jun 11,2012",
     "indexing_terms": " CITY-LIGHT,CITY-OFFICIALS-AND-AGENCIES",
@@ -62,7 +62,7 @@
   },
   {
     "cf_ord_res_no_": " 312380",
-    "committee": " Public Safety, Civil Rights, andTechnology",
+    "committee": "Public Safety, Civil Rights, and Technology",
     "date_data_retrieved": "July 13 2012 7:43 AM ",
     "date_introduced_referred_to_committee": " Jun 4,2012",
     "record_type": "Clerk File ",
@@ -72,7 +72,7 @@
   },
   {
     "cf_ord_res_no_": " 312367",
-    "committee": " Housing, HumanServices, Health, and Culture",
+    "committee": "Housing, Human Services, Health, and Culture",
     "date_data_retrieved": "July 13 2012 7:43 AM ",
     "date_introduced_referred_to_committee": " May 29,2012",
     "indexing_terms": " APPOINTMENT, PUBLIC-CORPORATIONS,HOSPITALS, HEALTH-CARE",
@@ -83,7 +83,7 @@
   },
   {
     "cf_ord_res_no_": " 312365",
-    "committee": " Public Safety, Civil Rights, andTechnology",
+    "committee": "Public Safety, Civil Rights, and Technology",
     "date_data_retrieved": "July 13 2012 7:43 AM ",
     "date_introduced_referred_to_committee": " May 29,2012",
     "indexing_terms": " CITY-ATTORNEY",
@@ -93,8 +93,18 @@
     "url": "http://clerk.seattle.gov/~scripts/nph-brs.exe?s1=&s3=312365&l=20&Sect5=CFCF1&Sect6=HITOFF&d=CFCF&p=1&u=%2F~public%2FCFCF1.htm&r=0&f=S"
   },
   {
+    "cf_ord_res_no_": " 31394",
+    "committee": "Libraries, Utilities, and Center",
+    "date_data_retrieved": "July 13 2012 7:43 AM ",
+    "date_introduced_referred_to_committee": " Jul 9,2012",
+    "record_type": "Resolution ",
+    "sponsor": " GODDEN",
+    "title": " A RESOLUTION supporting the sale of certain water systemfacilities and transfer of a portion of retail water service to the City ofShoreline.",
+    "url": "http://clerk.seattle.gov/~scripts/nph-brs.exe?s1=&s3=31394&l=20&Sect5=RESNY&Sect6=HITOFF&d=RESF&p=1&u=%2F~public%2FRESNy.htm&r=0&f=S"
+  },
+  {
     "cf_ord_res_no_": " 312357",
-    "committee": " Planning, Land Use, andSustainability",
+    "committee": "Planning, Land Use, and Sustainability",
     "date_data_retrieved": "July 13 2012 7:43 AM ",
     "date_introduced_referred_to_committee": " May 21,2012",
     "indexing_terms": " CONTRACT-REZONES, MIXED-USE-DEVELOPMENT, NORTHGATE,MAPLE-LEAF",
@@ -116,7 +126,7 @@
   },
   {
     "cf_ord_res_no_": " 312333",
-    "committee": " Planning,Land Use, and Sustainability",
+    "committee": "Planning, Land Use, and Sustainability",
     "date_data_retrieved": "July 13 2012 7:43 AM ",
     "date_introduced_referred_to_committee": " May 7,2012",
     "record_type": "Clerk File ",
@@ -126,7 +136,7 @@
   },
   {
     "cf_ord_res_no_": " 312300",
-    "committee": " Planning, Land Use, andSustainability",
+    "committee": "Planning, Land Use, and Sustainability",
     "date_data_retrieved": "July 13 2012 7:43 AM ",
     "date_introduced_referred_to_committee": " Apr 30,2012",
     "record_type": "Clerk File ",
@@ -146,47 +156,47 @@
   },
   {
     "cf_ord_res_no_": " 312266",
-    "committee": " Planning, Land Use, andSustainability",
+    "committee": "Planning, Land Use, and Sustainability",
     "date_data_retrieved": "July 13 2012 7:43 AM ",
     "date_introduced_referred_to_committee": " Apr 9,2012",
     "record_type": "Clerk File ",
-    "sponsor": " No SponsorRequired",
+    "sponsor": " No Sponsor Required",
     "title": " Council land use action to allow poles and netting up to 140feet in height for a new driving range at Jackson Park Golf Course, located at1000 NE 135th Street (Project No. 3012923, Type V).",
     "url": "http://clerk.seattle.gov/~scripts/nph-brs.exe?s1=&s3=312266&l=20&Sect5=CFCF1&Sect6=HITOFF&d=CFCF&p=1&u=%2F~public%2FCFCF1.htm&r=0&f=S"
   },
   {
     "cf_ord_res_no_": " 312262",
-    "committee": " Transportation",
+    "committee": "Transportation",
     "date_data_retrieved": "July 13 2012 7:43 AM ",
     "date_introduced_referred_to_committee": " Apr 9,2012",
     "record_type": "Clerk File ",
-    "sponsor": " No SponsorRequired",
+    "sponsor": " No Sponsor Required",
     "title": " Petition for Amazon.com, Inc., to vacate the alley in Block 20,Heirs of Sarah A. Bell's Second Addition to Seattle.",
     "url": "http://clerk.seattle.gov/~scripts/nph-brs.exe?s1=&s3=312262&l=20&Sect5=CFCF1&Sect6=HITOFF&d=CFCF&p=1&u=%2F~public%2FCFCF1.htm&r=0&f=S"
   },
   {
     "cf_ord_res_no_": " 312261",
-    "committee": " Transportation",
+    "committee": "Transportation",
     "date_data_retrieved": "July 13 2012 7:43 AM ",
     "date_introduced_referred_to_committee": " Apr 9,2012",
     "record_type": "Clerk File ",
-    "sponsor": " No SponsorRequired",
+    "sponsor": " No Sponsor Required",
     "title": " Petition for Amazon.com, Inc., to vacate the alley in Block 19,Heirs of Sarah A. Bell's Second Addition to Seattle.",
     "url": "http://clerk.seattle.gov/~scripts/nph-brs.exe?s1=&s3=312261&l=20&Sect5=CFCF1&Sect6=HITOFF&d=CFCF&p=1&u=%2F~public%2FCFCF1.htm&r=0&f=S"
   },
   {
     "cf_ord_res_no_": " 312260",
-    "committee": " Transportation",
+    "committee": "Transportation",
     "date_data_retrieved": "July 13 2012 7:43 AM ",
     "date_introduced_referred_to_committee": " Apr 9,2012",
     "record_type": "Clerk File ",
-    "sponsor": " No SponsorRequired",
+    "sponsor": " No Sponsor Required",
     "title": " Petition for Amazon.com, Inc., to vacate the alley in Block 14,Heirs of Sarah A. Bell's Addition to Seattle.",
     "url": "http://clerk.seattle.gov/~scripts/nph-brs.exe?s1=&s3=312260&l=20&Sect5=CFCF1&Sect6=HITOFF&d=CFCF&p=1&u=%2F~public%2FCFCF1.htm&r=0&f=S"
   },
   {
     "cf_ord_res_no_": " 312251",
-    "committee": " Transportation",
+    "committee": "Transportation",
     "date_data_retrieved": "July 13 2012 7:43 AM ",
     "date_introduced_referred_to_committee": " Apr 2,2012",
     "record_type": "Clerk File ",
@@ -196,7 +206,7 @@
   },
   {
     "cf_ord_res_no_": " 312238",
-    "committee": " Planning, Land Use, andSustainability",
+    "committee": "Planning, Land Use, and Sustainability",
     "date_data_retrieved": "July 13 2012 7:43 AM ",
     "date_introduced_referred_to_committee": " Mar 26,2012",
     "record_type": "Clerk File ",
@@ -206,7 +216,7 @@
   },
   {
     "cf_ord_res_no_": " 312229",
-    "committee": " Public Safety, Civil Rights, andTechnology",
+    "committee": "Public Safety, Civil Rights, and Technology",
     "date_data_retrieved": "July 13 2012 7:43 AM ",
     "date_introduced_referred_to_committee": " Mar 26,2012",
     "record_type": "Clerk File ",
@@ -216,7 +226,7 @@
   },
   {
     "cf_ord_res_no_": " 312119",
-    "committee": " Planning, Land Use, andSustainability",
+    "committee": "Planning, Land Use, and Sustainability",
     "date_data_retrieved": "July 13 2012 7:43 AM ",
     "date_introduced_referred_to_committee": " Feb 13,2012",
     "record_type": "Clerk File ",
@@ -226,7 +236,7 @@
   },
   {
     "cf_ord_res_no_": " 312105",
-    "committee": " Economic Resiliency and RegionalRelations",
+    "committee": "Economic Resiliency and Regional Relations",
     "date_data_retrieved": "July 13 2012 7:43 AM ",
     "date_introduced_referred_to_committee": " Jan 30,2012",
     "record_type": "Clerk File ",
@@ -236,7 +246,7 @@
   },
   {
     "cf_ord_res_no_": " 312104",
-    "committee": " Economic Resiliency and RegionalRelations",
+    "committee": "Economic Resiliency and Regional Relations",
     "date_data_retrieved": "July 13 2012 7:43 AM ",
     "date_introduced_referred_to_committee": " Jan 30,2012",
     "record_type": "Clerk File ",
@@ -246,7 +256,7 @@
   },
   {
     "cf_ord_res_no_": " 312089",
-    "committee": " Parks and Neighborhoods",
+    "committee": "Parks and Neighborhoods",
     "date_data_retrieved": "July 13 2012 7:43 AM ",
     "date_introduced_referred_to_committee": " Jan 30,2012",
     "record_type": "Clerk File ",
@@ -256,7 +266,7 @@
   },
   {
     "cf_ord_res_no_": " 312087",
-    "committee": " Planning, Land Use, andSustainability",
+    "committee": "Planning, Land Use, and Sustainability",
     "date_data_retrieved": "July 13 2012 7:43 AM ",
     "date_introduced_referred_to_committee": " Jan 30,2012",
     "record_type": "Clerk File ",
@@ -266,7 +276,7 @@
   },
   {
     "cf_ord_res_no_": " 312040",
-    "committee": " Public Safety, Civil Rights, andTechnology",
+    "committee": "Public Safety, Civil Rights, and Technology",
     "date_data_retrieved": "July 13 2012 7:43 AM ",
     "date_introduced_referred_to_committee": " Jan 17,2012",
     "record_type": "Clerk File ",
@@ -276,7 +286,7 @@
   },
   {
     "cf_ord_res_no_": " 312006",
-    "committee": " Public Safety, Civil Rights, andTechnology",
+    "committee": "Public Safety, Civil Rights, and Technology",
     "date_data_retrieved": "July 13 2012 7:43 AM ",
     "date_introduced_referred_to_committee": " Jan 17,2012",
     "record_type": "Clerk File ",
@@ -286,7 +296,7 @@
   },
   {
     "cf_ord_res_no_": " 312005",
-    "committee": " Public Safety, Civil Rights, andTechnology",
+    "committee": "Public Safety, Civil Rights, and Technology",
     "date_data_retrieved": "July 13 2012 7:43 AM ",
     "date_introduced_referred_to_committee": " Jan 17,2012",
     "record_type": "Clerk File ",
@@ -296,7 +306,7 @@
   },
   {
     "cf_ord_res_no_": " 311973",
-    "committee": " Planning, Land Use, andSustainability",
+    "committee": "Planning, Land Use, and Sustainability",
     "date_data_retrieved": "July 13 2012 7:43 AM ",
     "date_introduced_referred_to_committee": " Jan 9,2012",
     "record_type": "Clerk File ",
@@ -306,17 +316,17 @@
   },
   {
     "cf_ord_res_no_": " 311936",
-    "committee": " Planning, Land Use, andSustainability",
+    "committee": "Planning, Land Use, and Sustainability",
     "date_data_retrieved": "July 13 2012 7:43 AM ",
     "date_introduced_referred_to_committee": " Jan 17,2012",
     "record_type": "Clerk File ",
-    "sponsor": " No sponsorrequired",
+    "sponsor": " No Sponsor Required",
     "title": " Application of Swedish Health Services to prepare a new MajorInstitution Master Plan for the Swedish Hospital Cherry Hill Campus, located at500 17th Avenue (DPD Project No. 3012953, Type IV).",
     "url": "http://clerk.seattle.gov/~scripts/nph-brs.exe?s1=&s3=311936&l=20&Sect5=CFCF1&Sect6=HITOFF&d=CFCF&p=1&u=%2F~public%2FCFCF1.htm&r=0&f=S"
   },
   {
     "cf_ord_res_no_": " 311931",
-    "committee": " Housing, Human Services, Health, andCulture",
+    "committee": "Housing, Human Services, Health, and Culture",
     "date_data_retrieved": "July 13 2012 7:43 AM ",
     "date_introduced_referred_to_committee": " Dec 12,2011",
     "record_type": "Clerk File ",
@@ -326,7 +336,7 @@
   },
   {
     "cf_ord_res_no_": " 311916",
-    "committee": " Planning, Land Use, and Sustainability",
+    "committee": "Planning, Land Use, and Sustainability",
     "date_data_retrieved": "July 13 2012 7:43 AM ",
     "date_introduced_referred_to_committee": " Jan 9,2012",
     "misc_notes": "Originally referred to Committee on the Built Environment on December 12,2011.",
@@ -337,7 +347,7 @@
   },
   {
     "cf_ord_res_no_": " 311901",
-    "committee": " Public Safety, Civil Rights, andEducation",
+    "committee": "Public Safety, Civil Rights, and Education",
     "date_data_retrieved": "July 13 2012 7:43 AM ",
     "date_introduced_referred_to_committee": " Jan 17,2012",
     "misc_notes": " Originally referred to the Energy, Technology,and Civil Rights Committee on December 5, 2011.",
@@ -348,7 +358,7 @@
   },
   {
     "cf_ord_res_no_": " 311892",
-    "committee": " Energy, Technology, and CivilRights",
+    "committee": "Energy, Technology, and Civil Rights",
     "date_data_retrieved": "July 13 2012 7:43 AM ",
     "date_introduced_referred_to_committee": " Nov 28,2011",
     "record_type": "Clerk File ",
@@ -358,17 +368,17 @@
   },
   {
     "cf_ord_res_no_": " 311874",
-    "committee": " Transportation",
+    "committee": "Transportation",
     "date_data_retrieved": "July 13 2012 7:43 AM ",
     "date_introduced_referred_to_committee": " Nov 14,2011",
     "record_type": "Clerk File ",
-    "sponsor": " No SponsorRequired",
+    "sponsor": " No Sponsor Required",
     "title": " Petition of Fred Hutchinson Cancer Research Center to theSeattle City Council for a skybridge permit pursuant to Seattle Municipal Code15.64, for a new skybridge connecting 1100 Eastlake Ave E with the FredHutchinson Cancer Research Center campus.",
     "url": "http://clerk.seattle.gov/~scripts/nph-brs.exe?s1=&s3=311874&l=20&Sect5=CFCF1&Sect6=HITOFF&d=CFCF&p=1&u=%2F~public%2FCFCF1.htm&r=0&f=S"
   },
   {
     "cf_ord_res_no_": " 311872",
-    "committee": " Planning, Land Use, andSustainability",
+    "committee": "Planning, Land Use, and Sustainability",
     "date_data_retrieved": "July 13 2012 7:43 AM ",
     "date_introduced_referred_to_committee": " Apr 16,2012",
     "misc_notes": " Originally referred to Committee on theBuilt Environment on November 7, 2011.",
@@ -379,7 +389,7 @@
   },
   {
     "cf_ord_res_no_": " 311813",
-    "committee": " Planning, Land Use, andSustainability",
+    "committee": "Planning, Land Use, and Sustainability",
     "date_data_retrieved": "July 13 2012 7:43 AM ",
     "date_introduced_referred_to_committee": " Apr 16,2012",
     "misc_notes": " Originally referred to Committee on theBuilt Environment on October 3, 2011.",
@@ -390,7 +400,7 @@
   },
   {
     "cf_ord_res_no_": " 311812",
-    "committee": " BuiltEnvironment",
+    "committee": "Built Environment",
     "date_data_retrieved": "July 13 2012 7:43 AM ",
     "date_introduced_referred_to_committee": " Oct 3,2011",
     "record_type": "Clerk File ",
@@ -400,18 +410,18 @@
   },
   {
     "cf_ord_res_no_": " 311694",
-    "committee": " Planning, Land Use, and Sustainability",
+    "committee": "Planning, Land Use, and Sustainability",
     "date_data_retrieved": "July 13 2012 7:43 AM ",
     "date_introduced_referred_to_committee": " Apr 16,2012",
     "misc_notes": "Originally referred to Committee on the Built Environment on August 15,2011.",
     "record_type": "Clerk File ",
-    "sponsor": " No SponsorRequired",
+    "sponsor": " No Sponsor Required",
     "title": " Application of Gregory N. Nalbandian on behalf of John W. Lashfor approval of a contract rezone of land at 10001 Lake City Way NE from SingleFamily 5000 (SF 5000) to Commercial 1 (C1-40), for future construction of an800 sq. ft. accessory structure to an existing warehouse in an environmentallycritical area (Project No. 3012420, Type IV).",
     "url": "http://clerk.seattle.gov/~scripts/nph-brs.exe?s1=&s3=311694&l=20&Sect5=CFCF1&Sect6=HITOFF&d=CFCF&p=1&u=%2F~public%2FCFCF1.htm&r=0&f=S"
   },
   {
     "cf_ord_res_no_": " 311685",
-    "committee": " Transportation",
+    "committee": "Transportation",
     "date_data_retrieved": "July 13 2012 7:43 AM ",
     "date_introduced_referred_to_committee": " Aug 8,2011",
     "indexing_terms": " VACATING, CASCADE,EASTLAKE",
@@ -422,7 +432,7 @@
   },
   {
     "cf_ord_res_no_": " 311662",
-    "committee": " FullCouncil",
+    "committee": "Full Council",
     "date_data_retrieved": "July 13 2012 7:43 AM ",
     "date_introduced_referred_to_committee": " Jul 18,2011",
     "record_type": "Clerk File ",
@@ -432,7 +442,7 @@
   },
   {
     "cf_ord_res_no_": " 311626",
-    "committee": " Energy, Technology, and CivilRights",
+    "committee": " Energy, Technology, and Civil Rights",
     "date_data_retrieved": "July 13 2012 7:43 AM ",
     "date_introduced_referred_to_committee": " Jul 18,2011",
     "misc_notes": " Originally referred to the Housing, Human Services,Health, and Culture Committee on June 27, 2011.",
@@ -443,7 +453,7 @@
   },
   {
     "cf_ord_res_no_": " 311623",
-    "committee": " Committeeon the Built Environment",
+    "committee": "Built Environment",
     "date_data_retrieved": "July 13 2012 7:43 AM ",
     "date_introduced_referred_to_committee": " Jun 27,2011",
     "record_type": "Clerk File ",
@@ -453,7 +463,7 @@
   },
   {
     "cf_ord_res_no_": " 311541",
-    "committee": " BuiltEnvironment",
+    "committee": "Built Environment",
     "date_data_retrieved": "July 13 2012 7:43 AM ",
     "date_introduced_referred_to_committee": " May 23,2011",
     "record_type": "Clerk File ",
@@ -463,7 +473,7 @@
   },
   {
     "cf_ord_res_no_": " 311533",
-    "committee": " Housing, Human Services, Health, andCulture",
+    "committee": "Housing, Human Services, Health, and Culture",
     "date_data_retrieved": "July 13 2012 7:43 AM ",
     "date_introduced_referred_to_committee": " May 16,2011",
     "record_type": "Clerk File ",
@@ -472,18 +482,8 @@
     "url": "http://clerk.seattle.gov/~scripts/nph-brs.exe?s1=&s3=311533&l=20&Sect5=CFCF1&Sect6=HITOFF&d=CFCF&p=1&u=%2F~public%2FCFCF1.htm&r=0&f=S"
   },
   {
-    "cf_ord_res_no_": " 311389",
-    "committee": " Special Committee on YeslerTerrace",
-    "date_data_retrieved": "July 13 2012 7:43 AM ",
-    "date_introduced_referred_to_committee": " Mar 14,2011",
-    "record_type": "Clerk File ",
-    "sponsor": " No Sponsor Required",
-    "title": " Petition of Seattle Housing Authority to vacate portions ofstreets and alleys within the Yesler Terrace Development in the generalvicinity bounded by Interstate 5, Alder Street, Boren Avenue, and South MainStreet.",
-    "url": "http://clerk.seattle.gov/~scripts/nph-brs.exe?s1=&s3=311389&l=20&Sect5=CFCF1&Sect6=HITOFF&d=CFCF&p=1&u=%2F~public%2FCFCF1.htm&r=0&f=S"
-  },
-  {
     "cf_ord_res_no_": " 311240",
-    "committee": " Planning, Land Use,and Sustainability",
+    "committee": "Planning, Land Use, and Sustainability",
     "date_data_retrieved": "July 13 2012 7:43 AM ",
     "date_introduced_referred_to_committee": " Apr 16,2012",
     "indexing_terms": " REZONES",
@@ -506,7 +506,7 @@
   },
   {
     "cf_ord_res_no_": " 310934",
-    "committee": " Housing, Human Services, Health, andCulture",
+    "committee": "Housing, Human Services, Health, and Culture",
     "date_data_retrieved": "July 13 2012 7:43 AM ",
     "date_introduced_referred_to_committee": " Jul 12,2010",
     "record_type": "Clerk File ",
@@ -516,7 +516,7 @@
   },
   {
     "cf_ord_res_no_": " 310853",
-    "committee": " Built Environment",
+    "committee": "Built Environment",
     "date_data_retrieved": "July 13 2012 7:43 AM ",
     "date_introduced_referred_to_committee": " Jun 14,2010",
     "record_type": "Clerk File ",
@@ -526,12 +526,12 @@
   },
   {
     "cf_ord_res_no_": " 310821",
-    "committee": " Full Council",
+    "committee": "Full Council",
     "date_data_retrieved": "July 13 2012 7:43 AM ",
     "date_introduced_referred_to_committee": " May 24,2010",
     "indexing_terms": " EASTLAKE, SUBDIVISION,LAND-USE-PERMITS",
     "record_type": "Clerk File ",
-    "sponsor": " No SponsorRequired",
+    "sponsor": " No Sponsor Required",
     "title": " Full subdivision application of Mike Yukovich to subdivide oneparcel into 21 parcels of land in an environmentally critical area, located at2808 Fairview Avenue East (Project No. 3011009/Type III).",
     "url": "http://clerk.seattle.gov/~scripts/nph-brs.exe?s1=&s3=310821&l=20&Sect5=CFCF1&Sect6=HITOFF&d=CFCF&p=1&u=%2F~public%2FCFCF1.htm&r=0&f=S"
   },
@@ -549,31 +549,31 @@
   },
   {
     "cf_ord_res_no_": " 310077",
-    "committee": " Built Environment",
+    "committee": "Built Environment",
     "date_data_retrieved": "July 13 2012 7:43 AM ",
     "date_introduced_referred_to_committee": " Jan 19,2010",
     "indexing_terms": " REZONES, GREENWOOD",
     "misc_notes": "Fred Meyer RezoneOriginally referred to Planning, Land Use, and Neighborhoods Committee on7/13/09.",
     "record_type": "Clerk File ",
-    "sponsor": " No SponsorRequired",
+    "sponsor": " No Sponsor Required",
     "title": " Petition of Chris Libby to rezone land at 100 NW 85th Streetfrom Commercial 1 with a 40 foot height limit (C1-40) to Commercial 1 with a 65foot height limit (C1-65) (Project No. 3010265, Type IV).",
     "url": "http://clerk.seattle.gov/~scripts/nph-brs.exe?s1=&s3=310077&l=20&Sect5=CFCF1&Sect6=HITOFF&d=CFCF&p=1&u=%2F~public%2FCFCF1.htm&r=0&f=S"
   },
   {
     "cf_ord_res_no_": " 309618",
-    "committee": " Built Environment",
+    "committee": "Built Environment",
     "date_data_retrieved": "July 13 2012 7:43 AM ",
     "date_introduced_referred_to_committee": " Jan 19,2010",
     "indexing_terms": " REZONES, WEST-SEATTLE",
     "misc_notes": "Originally referred to Planning, Land Use, and Neighborhoods Committee on10/20/08.",
     "record_type": "Clerk File ",
-    "sponsor": " No SponsorRequired",
+    "sponsor": " No Sponsor Required",
     "title": " Application of The Kenney for a contract rezone of 73,459 squarefeet of land at 7125 Fauntleroy Way Southwest, from Lowrise Duplex/Triplex(LDT) to Lowrise 3 (L3) (Project No. 3008453/Type IV).",
     "url": "http://clerk.seattle.gov/~scripts/nph-brs.exe?s1=&s3=309618&l=20&Sect5=CFCF1&Sect6=HITOFF&d=CFCF&p=1&u=%2F~public%2FCFCF1.htm&r=0&f=S"
   },
   {
     "cf_ord_res_no_": " 309531",
-    "committee": " BuiltEnvironment",
+    "committee": "Built Environment",
     "date_data_retrieved": "July 13 2012 7:43 AM ",
     "date_introduced_referred_to_committee": " Jan 19,2010",
     "indexing_terms": " REZONES, OLYMPIC-HILLS",
@@ -585,7 +585,7 @@
   },
   {
     "cf_ord_res_no_": " 309530",
-    "committee": " BuiltEnvironment",
+    "committee": "Built Environment",
     "date_data_retrieved": "July 13 2012 7:43 AM ",
     "date_introduced_referred_to_committee": " Jan 19,2010",
     "indexing_terms": " INTERBAY, REZONES",
@@ -597,13 +597,13 @@
   },
   {
     "cf_ord_res_no_": " 309497",
-    "committee": " Built Environment",
+    "committee": "Built Environment",
     "date_data_retrieved": "July 13 2012 7:43 AM ",
     "date_introduced_referred_to_committee": " Jan 19,2010",
     "indexing_terms": " REZONES, MAGNOLIA",
     "misc_notes": "Originally referred to Planning, Land Use, and Neighborhoods Committee on7/21/08.",
     "record_type": "Clerk File ",
-    "sponsor": " No SponsorRequired",
+    "sponsor": " No Sponsor Required",
     "title": " Petition of Keith Hammer and Blair Stone to rezone 21,386 sq.ft.of land at 2200 32nd Av. W. from Single Family 5000 (SF 5000) to Lowrise 1 (L1)multifamily residential (Project No. 3005123/Type IV).",
     "url": "http://clerk.seattle.gov/~scripts/nph-brs.exe?s1=&s3=309497&l=20&Sect5=CFCF1&Sect6=HITOFF&d=CFCF&p=1&u=%2F~public%2FCFCF1.htm&r=0&f=S"
   },
@@ -621,7 +621,7 @@
   },
   {
     "cf_ord_res_no_": " 307575",
-    "committee": " BuiltEnvironment",
+    "committee": "Built Environment",
     "date_data_retrieved": "July 13 2012 7:43 AM ",
     "date_introduced_referred_to_committee": " Jun 14,2010",
     "indexing_terms": " REZONES, CROWN-HILL, BALLARD",
@@ -632,29 +632,19 @@
     "url": "http://clerk.seattle.gov/~scripts/nph-brs.exe?s1=&s3=307575&l=20&Sect5=CFCF1&Sect6=HITOFF&d=CFCF&p=1&u=%2F~public%2FCFCF1.htm&r=0&f=S"
   },
   {
-    "cf_ord_res_no_": " 31394",
-    "committee": " Libraries, Utilities, andCenter",
-    "date_data_retrieved": "July 13 2012 7:43 AM ",
-    "date_introduced_referred_to_committee": " Jul 9,2012",
-    "record_type": "Resolution ",
-    "sponsor": " GODDEN",
-    "title": " A RESOLUTION supporting the sale of certain water systemfacilities and transfer of a portion of retail water service to the City ofShoreline.",
-    "url": "http://clerk.seattle.gov/~scripts/nph-brs.exe?s1=&s3=31394&l=20&Sect5=RESNY&Sect6=HITOFF&d=RESF&p=1&u=%2F~public%2FRESNy.htm&r=0&f=S"
-  },
-  {
     "cf_ord_res_no_": " 31393",
-    "committee": " Transportation",
+    "committee": "Transportation",
     "date_data_retrieved": "July 13 2012 7:43 AM ",
     "date_introduced_referred_to_committee": " Jul 2,2012",
     "indexing_terms": " AUDITS, PROGRAM-EVALUATION,TRANSPORTATION-DEPARTMENT",
     "record_type": "Resolution ",
     "sponsor": "RASMUSSEN",
-    "title": " A RESOLUTION establishing goals and objectives for anoperational efficiencies review of the Seattle Department of Transportation andcreating a joint City Council, Executive and Office of the City Auditorinterdepartmental team to oversee project implementation.",
+    "title": " A RESOLUTION establishing goals and objectives for anoperational efficiencies review of the Seattle Department ofTransportation andcreating a joint City Council, Executive and Office of the City Auditorinterdepartmental team to oversee project implementation.",
     "url": "http://clerk.seattle.gov/~scripts/nph-brs.exe?s1=&s3=31393&l=20&Sect5=RESNY&Sect6=HITOFF&d=RESF&p=1&u=%2F~public%2FRESNy.htm&r=0&f=S"
   },
   {
     "cf_ord_res_no_": " 31381",
-    "committee": " Transportation",
+    "committee": "Transportation",
     "date_data_retrieved": "July 13 2012 7:43 AM ",
     "date_introduced_referred_to_committee": " May 14,2012",
     "indexing_terms": " FRANCHISES, PIPELINES, PERMITS,DOWNTOWN, RAINIER-VALLEY, INDUSTRIAL-DISTRICT, STREETS, ALLEYS,FEES",
@@ -665,7 +655,7 @@
   },
   {
     "cf_ord_res_no_": " 31353",
-    "committee": " Energy andEnvironment",
+    "committee": "Energy and Environment",
     "date_data_retrieved": "July 13 2012 7:43 AM ",
     "date_introduced_referred_to_committee": " Jan 17,2012",
     "indexing_terms": " ENVIRONMENTAL-CLEANUP, CITY-LIGHT,DUWAMISH-WATERWAY",
@@ -676,7 +666,7 @@
   },
   {
     "cf_ord_res_no_": " 117376",
-    "committee": " Planning, LandUse, and Sustainability",
+    "committee": "Planning, Land Use, and Sustainability",
     "date_data_retrieved": "July 13 2012 7:43 AM ",
     "date_introduced_referred_to_committee": " Jan 9,2012",
     "misc_notes": " Originally referred to Committee onthe Built Environment on December 12, 2011.",
@@ -687,7 +677,7 @@
   },
   {
     "cf_ord_res_no_": " 117523",
-    "committee": " Public Safety, Civil Rights,and Technology",
+    "committee": " Public Safety, Civil Rights, and Technology",
     "date_data_retrieved": "July 13 2012 7:43 AM ",
     "date_introduced_referred_to_committee": " Jul 16,2012",
     "record_type": "Council Bill ",
@@ -697,7 +687,7 @@
   },
   {
     "cf_ord_res_no_": " 117520",
-    "committee": " Libraries,Utilities, and Center",
+    "committee": "Libraries, Utilities, and Center",
     "date_data_retrieved": "July 13 2012 7:43 AM ",
     "date_introduced_referred_to_committee": " Jul 16,2012",
     "indexing_terms": " UTILITY-RATES, DRAINAGE,DRAINAGE-AND-WASTEWATER-UTILITY, LOW-INCOME, WASTE-WATER-TREATMENT,PUBLIC-ASSISTANCE",
@@ -708,7 +698,7 @@
   },
   {
     "cf_ord_res_no_": " 117522",
-    "committee": " Libraries,Utilities, and Center",
+    "committee": "Libraries, Utilities, and Center",
     "date_data_retrieved": "July 13 2012 7:43 AM ",
     "date_introduced_referred_to_committee": " Jul 16,2012",
     "indexing_terms": " SEATTLE-PUBLIC-UTILITIES, UTILITY-RATES,SOLID-WASTE, SOLID-WASTE-DISPOSAL, LOW-INCOME,PUBLIC-ASSISTANCE",
@@ -719,7 +709,7 @@
   },
   {
     "cf_ord_res_no_": " 117521",
-    "committee": " Libraries, Utilities, and Center",
+    "committee": "Libraries, Utilities, and Center",
     "date_data_retrieved": "July 13 2012 7:43 AM ",
     "date_introduced_referred_to_committee": " Jul 16,2012",
     "indexing_terms": " UTILITY-RATES,DRAINAGE, DRAINAGE-AND-WASTEWATER-UTILITY, LOW-INCOME,WASTE-WATER-TREATMENT",
@@ -730,7 +720,7 @@
   },
   {
     "cf_ord_res_no_": " 117518",
-    "committee": " Transportation",
+    "committee": "Transportation",
     "date_data_retrieved": "July 13 2012 7:43 AM ",
     "date_introduced_referred_to_committee": " Jul 9,2012",
     "indexing_terms": " PARKING,PARKING-METERS, COMPREHENSIVE-PLAN, URBAN-AREAS,",
@@ -741,7 +731,7 @@
   },
   {
     "cf_ord_res_no_": " 117517",
-    "committee": " FullCouncil",
+    "committee": "Full Council",
     "date_data_retrieved": "July 13 2012 7:43 AM ",
     "date_introduced_referred_to_committee": " Jul 9,2012",
     "indexing_terms": " ZONING, LAND-USE-CODE, CONTRACT-REZONES,COLUMBIA-CITY",
@@ -752,7 +742,7 @@
   },
   {
     "cf_ord_res_no_": " 117515",
-    "committee": " Libraries, Utilities, and Center",
+    "committee": "Libraries, Utilities, and Center",
     "date_data_retrieved": "July 13 2012 7:43 AM ",
     "date_introduced_referred_to_committee": " Jul 9,2012",
     "indexing_terms": "TELECOMMUNICATIONS",
@@ -763,7 +753,7 @@
   },
   {
     "cf_ord_res_no_": " 117516",
-    "committee": " Planning, LandUse, and Sustainability",
+    "committee": "Planning, Land Use, and Sustainability",
     "date_data_retrieved": "July 13 2012 7:43 AM ",
     "date_introduced_referred_to_committee": " Jul 9,2012",
     "indexing_terms": " ENERGY-CONSERVATION, GREEN-BUILDING,ENVIRONMENTAL-HEALTH, ENVIRONMENTAL-PROTECTION, LAND-USE-CODE, CONSTRUCTION,BUILDING-METHODS",
@@ -774,7 +764,7 @@
   },
   {
     "cf_ord_res_no_": " 117514",
-    "committee": " FullCouncil",
+    "committee": "Full Council",
     "date_data_retrieved": "July 13 2012 7:43 AM ",
     "date_introduced_referred_to_committee": " Jul 9,2012",
     "indexing_terms": " FINANCE",
@@ -785,7 +775,7 @@
   },
   {
     "cf_ord_res_no_": " 117430",
-    "committee": " Planning, Land Use, andSustainability",
+    "committee": "Planning, Land Use, and Sustainability",
     "date_data_retrieved": "July 13 2012 7:43 AM ",
     "date_introduced_referred_to_committee": " Mar 26,2012",
     "indexing_terms": " LAND-USE-PERMITS, LAND-USE-REGULATIONS,ACCESSORY-HOUSING, SINGLE-FAMILY-RESIDENTIAL-AREAS,MULTI-FAMILY-RESIDENTIAL-AREAS, ZONING, LAND-USE-REGULATIONS, SCHOOLS,HOSPITALS, PARKING",
@@ -796,7 +786,7 @@
   },
   {
     "cf_ord_res_no_": " 117513",
-    "committee": " Public Safety, Civil Rights, and Technology",
+    "committee": "Public Safety, Civil Rights, and Technology",
     "date_data_retrieved": "July 13 2012 7:43 AM ",
     "date_introduced_referred_to_committee": " Jul 2,2012",
     "indexing_terms": "CRIMINAL-OFFENSES, LAW-ENFORCEMENT, VICTIMS-AND-WITNESSES, PROSTITUTION, FEES,FINES, CRIMINAL-LAW, CRIME-PREVENTION,CORRECTIONAL-PUNISHMENT-AND-REHABILITATION",
@@ -807,7 +797,7 @@
   },
   {
     "cf_ord_res_no_": " 117512",
-    "committee": " Public Safety, Civil Rights,and Technology",
+    "committee": " Public Safety, Civil Rights, and Technology",
     "date_data_retrieved": "July 13 2012 7:43 AM ",
     "date_introduced_referred_to_committee": " Jul 2,2012",
     "indexing_terms": " TRAFFIC, DRUG-RELATED-CRIMES, VEHICLE-REGISTRATION,DRUG-ENFORCEMENT, LICENSES, MOTOR-VEHICLES, MUNICIPAL-COURT, MOTOR-VEHICLES,ALCOHOLIC-BEVERAGE-CONTROL, ALCOHOLIC-BEVERAGE-CONTROL, CRIMINAL-OFFENSES,ALCOHOLIC-BEVERAGE-CONTROL, LAW-ENFORCEMENT",
@@ -818,13 +808,13 @@
   },
   {
     "cf_ord_res_no_": " 117511",
-    "committee": " Transportation",
+    "committee": "Transportation",
     "date_data_retrieved": "July 13 2012 7:43 AM ",
     "date_introduced_referred_to_committee": " Jul 2,2012",
     "indexing_terms": " CONSTRUCTION,METRO, QUEEN-ANNE, LAND-USE-PERMITS, INTERLOCAL-AGREEMENTS, SUBSTATIONS,MASS-TRANSIT, LAND-USE-REGULATIONS",
     "record_type": "Council Bill ",
     "sponsor": " RASMUSSEN",
-    "title": " AN ORDINANCE granting King County permission to maintain andoperate a D-C Substation in connection with its public transportation system,on Valley Street, east of 1st Avenue North, for an unlimited term; specifyingthe conditions under which this permit is granted; providing for the acceptanceof the permit and conditions; and ratifying and confirming certain prioracts.",
+    "title": " AN ORDINANCE granting King County permission to maintain andoperate a D-C Substation in connection with its publicTransportation system,on Valley Street, east of 1st Avenue North, for an unlimited term; specifyingthe conditions under which this permit is granted; providing for the acceptanceof the permit and conditions; and ratifying and confirming certain prioracts.",
     "url": "http://clerk.seattle.gov/~scripts/nph-brs.exe?s1=&s3=117511&l=20&Sect5=CBORY&Sect6=HITOFF&d=ORDF&p=1&u=%2F~public%2Fcbory.htm&r=0&f=S"
   },
   {
@@ -840,18 +830,18 @@
   },
   {
     "cf_ord_res_no_": " 117509",
-    "committee": " Transportation",
+    "committee": "Transportation",
     "date_data_retrieved": "July 13 2012 7:43 AM ",
     "date_introduced_referred_to_committee": " Jul 2,2012",
     "indexing_terms": "TRAFFIC, PARKING, FEES, TELECOMMUNICATIONS, PARKING-METERS",
     "record_type": "Council Bill ",
     "sponsor": " RASMUSSEN",
-    "title": " AN ORDINANCE relating to the Traffic Code; allowing payment forparking in City public rights-of-way by mobile device; authorizing the Directorof Transportation to enter into contracts and to set convenience fees to becharged for pay by mobile device services; amending Sections 11.14.425,11.76.005, 11.76.010 and 11.76.015 of the Seattle Municipal Code; and adding anew Section 11.16.127.",
+    "title": " AN ORDINANCE relating to the Traffic Code; allowing payment forparking in City public rights-of-way by mobile device; authorizing the DirectorofTransportation to enter into contracts and to set convenience fees to becharged for pay by mobile device services; amending Sections 11.14.425,11.76.005, 11.76.010 and 11.76.015 of the Seattle Municipal Code; and adding anew Section 11.16.127.",
     "url": "http://clerk.seattle.gov/~scripts/nph-brs.exe?s1=&s3=117509&l=20&Sect5=CBORY&Sect6=HITOFF&d=ORDF&p=1&u=%2F~public%2Fcbory.htm&r=0&f=S"
   },
   {
     "cf_ord_res_no_": " 117508",
-    "committee": " Libraries, Utilities, and Center",
+    "committee": "Libraries, Utilities, and Center",
     "date_data_retrieved": "July 13 2012 7:43 AM ",
     "date_introduced_referred_to_committee": " Jul 2,2012",
     "indexing_terms": "RECREATIONAL-FACILITIES, TRAILS, TOLT-RIVER, LAKE-YOUNGS, RATTLESNAKE-LAKE,INTERLOCAL-AGREEMENTS, CEDAR-RIVER, RIGHT-OF-WAY,",
@@ -862,7 +852,7 @@
   },
   {
     "cf_ord_res_no_": " 117506",
-    "committee": " Planning, Land Use, andSustainability",
+    "committee": "Planning, Land Use, and Sustainability",
     "date_data_retrieved": "July 13 2012 7:43 AM ",
     "date_introduced_referred_to_committee": " Jun 25,2012",
     "indexing_terms": " GREENWOOD, PHINNEY-RIDGE, LAND-USE-CODE, ZONING,LOW-INCOME-HOUSING, MODERATE-INCOME-HOUSING,",
@@ -873,7 +863,7 @@
   },
   {
     "cf_ord_res_no_": " 117505",
-    "committee": " Energy and Environment",
+    "committee": "Energy and Environment",
     "date_data_retrieved": "July 13 2012 7:43 AM ",
     "date_introduced_referred_to_committee": " Jun 25,2012",
     "indexing_terms": "ENERGY-RESOURCES, ENERGY-FACILITIES, CONTRACTS, WIND-ENERGY",
@@ -884,7 +874,7 @@
   },
   {
     "cf_ord_res_no_": " 117504",
-    "committee": " Energy andEnvironment",
+    "committee": "Energy and Environment",
     "date_data_retrieved": "July 13 2012 7:43 AM ",
     "date_introduced_referred_to_committee": " Jun 25,2012",
     "indexing_terms": " HYDROELECTRIC-FACILITIES, DAMS, BOUNDARY-PROJECT,US-GOVERNMENT",
@@ -895,14 +885,14 @@
   },
   {
     "cf_ord_res_no_": " 117501",
-    "committee": " Government Performance and Finance",
+    "committee": "Government Performance and Finance",
     "date_data_retrieved": "July 13 2012 7:43 AM ",
     "date_introduced_referred_to_committee": " Jun 25,2012",
     "indexing_terms": "GRANTS, BUDGET",
     "misc_notes": " 2012 1st Quarter Grant Acceptance Ordinance",
     "record_type": "Council Bill ",
     "sponsor": " BURGESS",
-    "title": " AN ORDINANCE authorizing, in 2012, acceptance of funding fromnon-City sources; authorizing the heads of the Seattle Fire Department, SeattlePolice Department, Office of Economic Development, Office of Sustainability andEnvironment, Department of Neighborhoods, Human Services Department, Departmentof Information Technology, Seattle City Light, Department of Parks andRecreation, Seattle Department of Transportation and Seattle Public Utilitiesto accept specified grants and private funding and to execute, deliver, andperform corresponding agreements; and ratifying and confirming certain prioracts.",
+    "title": " AN ORDINANCE authorizing, in 2012, acceptance of funding fromnon-City sources; authorizing the heads of the Seattle Fire Department, SeattlePolice Department, Office of Economic Development, Office of Sustainability andEnvironment, Department of Neighborhoods, Human Services Department, Departmentof Information Technology, Seattle City Light, Department of Parks andRecreation, Seattle Department ofTransportation and Seattle Public Utilitiesto accept specified grants and private funding and to execute, deliver, andperform corresponding agreements; and ratifying and confirming certain prioracts.",
     "url": "http://clerk.seattle.gov/~scripts/nph-brs.exe?s1=&s3=117501&l=20&Sect5=CBORY&Sect6=HITOFF&d=ORDF&p=1&u=%2F~public%2Fcbory.htm&r=0&f=S"
   },
   {
@@ -919,18 +909,18 @@
   },
   {
     "cf_ord_res_no_": " 117497",
-    "committee": " Transportation",
+    "committee": "Transportation",
     "date_data_retrieved": "July 13 2012 7:43 AM ",
     "date_introduced_referred_to_committee": " Jun 18,2012",
     "indexing_terms": "REGIONAL-TRANSIT-AUTHORITY, CONSTRUCTION, STREETCARS, MASS-TRANSIT, FIRST-HILL,BROADWAY, BUDGET,",
     "record_type": "Council Bill ",
     "sponsor": " RASMUSSEN",
-    "title": " AN ORDINANCE relating to the Transit Corridor Projects project;removing restrictions in the 2012 Adopted Budget that limit the SeattleDepartment of Transportation's spending in the Mobility-Capital BCL; andrevising project allocations in the 2012-2017 Capital ImprovementProgram.",
+    "title": " AN ORDINANCE relating to the Transit Corridor Projects project;removing restrictions in the 2012 Adopted Budget that limit the SeattleDepartment ofTransportation's spending in the Mobility-Capital BCL; andrevising project allocations in the 2012-2017 Capital ImprovementProgram.",
     "url": "http://clerk.seattle.gov/~scripts/nph-brs.exe?s1=&s3=117497&l=20&Sect5=CBORY&Sect6=HITOFF&d=ORDF&p=1&u=%2F~public%2Fcbory.htm&r=0&f=S"
   },
   {
     "cf_ord_res_no_": " 117495",
-    "committee": " Energy and Environment",
+    "committee": "Energy and Environment",
     "date_data_retrieved": "July 13 2012 7:43 AM ",
     "date_introduced_referred_to_committee": " Jun 11,2012",
     "indexing_terms": "ENERGY-RESOURCES, ENERGY-FACILITIES, CONTRACTS, WIND-ENERGY",
@@ -941,7 +931,7 @@
   },
   {
     "cf_ord_res_no_": " 117494",
-    "committee": " Energy and Environment",
+    "committee": "Energy and Environment",
     "date_data_retrieved": "July 13 2012 7:43 AM ",
     "date_introduced_referred_to_committee": " Jun 11,2012",
     "indexing_terms": "ENERGY-RESOURCES, ENERGY-FACILITIES, CONTRACTS, WIND-ENERGY",
@@ -952,7 +942,7 @@
   },
   {
     "cf_ord_res_no_": " 117493",
-    "committee": " Energy and Environment",
+    "committee": "Energy and Environment",
     "date_data_retrieved": "July 13 2012 7:43 AM ",
     "date_introduced_referred_to_committee": " Jun 11,2012",
     "indexing_terms": "ENERGY-RESOURCES, ENERGY-FACILITIES, CONTRACTS, WIND-ENERGY",
@@ -963,7 +953,7 @@
   },
   {
     "cf_ord_res_no_": " 117492",
-    "committee": " Energy and Environment",
+    "committee": "Energy and Environment",
     "date_data_retrieved": "July 13 2012 7:43 AM ",
     "date_introduced_referred_to_committee": " Jun 11,2012",
     "indexing_terms": "ENERGY-RESOURCES, ENERGY-FACILITIES, CONTRACTS, WIND-ENERGY",
@@ -974,7 +964,7 @@
   },
   {
     "cf_ord_res_no_": " 117491",
-    "committee": " Energy and Environment",
+    "committee": "Energy and Environment",
     "date_data_retrieved": "July 13 2012 7:43 AM ",
     "date_introduced_referred_to_committee": " Jun 11,2012",
     "indexing_terms": "ENERGY-RESOURCES, ENERGY-FACILITIES, CONTRACTS, WIND-ENERGY",
@@ -985,7 +975,7 @@
   },
   {
     "cf_ord_res_no_": " 117302",
-    "committee": " Built Environment",
+    "committee": "Built Environment",
     "date_data_retrieved": "July 13 2012 7:43 AM ",
     "date_introduced_referred_to_committee": " Oct 10,2011",
     "record_type": "Council Bill ",
@@ -995,7 +985,7 @@
   },
   {
     "cf_ord_res_no_": " 117490",
-    "committee": " Energy and Environment",
+    "committee": "Energy and Environment",
     "date_data_retrieved": "July 13 2012 7:43 AM ",
     "date_introduced_referred_to_committee": " Jun 11,2012",
     "indexing_terms": "ENERGY-RESOURCES, ENERGY-FACILITIES, CONTRACTS, WIND-ENERGY",
@@ -1006,7 +996,7 @@
   },
   {
     "cf_ord_res_no_": " 117487",
-    "committee": " Public Safety, Civil Rights, and Technology",
+    "committee": "Public Safety, Civil Rights, and Technology",
     "date_data_retrieved": "July 13 2012 7:43 AM ",
     "date_introduced_referred_to_committee": " Jun 4,2012",
     "indexing_terms": "ELECTRONIC-NETWORKS, TELECOMMUNICATIONS",
@@ -1028,11 +1018,11 @@
   },
   {
     "cf_ord_res_no_": " 117479",
-    "committee": " Transportation",
+    "committee": "Transportation",
     "date_data_retrieved": "July 13 2012 7:43 AM ",
     "date_introduced_referred_to_committee": " Jul 2,2012",
     "indexing_terms": " VACATING, SEATTLE-UNIVERSITY,ALLEYS, FIRST-HILL",
-    "misc_notes": " Originally referred to Transportation Committee on5/29/12.",
+    "misc_notes": " Originally referred toTransportation Committee on5/29/12.",
     "record_type": "Council Bill ",
     "sponsor": "RASMUSSEN",
     "title": " AN ORDINANCE vacating the alley in Block A, W.C. Squires Replatof Block 8, Squire Park Addition to the City of Seattle, on the petition ofSeattle University as reflected in Clerk File 305367.",
@@ -1040,12 +1030,12 @@
   },
   {
     "cf_ord_res_no_": " 117065",
-    "committee": " Regional Development andSustainability",
+    "committee": " Regional Development and Sustainability",
     "date_data_retrieved": "July 13 2012 7:43 AM ",
     "date_introduced_referred_to_committee": " Dec 6,2010",
     "record_type": "Council Bill ",
     "sponsor": " CONLIN",
-    "title": " AN ORDINANCE relating to land use and zoning; amending Section23.55.034 of the Seattle Municipal Code, allowing signs on buildings indowntown zones to be placed more than sixty five feet above ground level undercertain circumstances, and updating related sign code provisions in the LandUse Code.",
+    "title": " AN ORDINANCE relating to land use and zoning; amending Section23.55.034 of the Seattle Municipal Code, allowing signs on buildings indowntown zones to be placed more than sixty five feet above ground level undercertain circumstances, and updating related sign code provisions in the Land Use Code.",
     "url": "http://clerk.seattle.gov/~scripts/nph-brs.exe?s1=&s3=117065&l=20&Sect5=CBORY&Sect6=HITOFF&d=ORDF&p=1&u=%2F~public%2Fcbory.htm&r=0&f=S"
   },
   {
@@ -1105,7 +1095,7 @@
   },
   {
     "cf_ord_res_no_": " 117419",
-    "committee": " GovernmentPerformance and Finance",
+    "committee": "Government Performance and Finance",
     "date_data_retrieved": "July 13 2012 7:43 AM ",
     "date_introduced_referred_to_committee": " Mar 5,2012",
     "indexing_terms": " CITY-EMPLOYEES, PERSONNEL-ADMINISTRATION,EMPLOYMENT, CIVIL-SERVICE",
@@ -1116,7 +1106,7 @@
   },
   {
     "cf_ord_res_no_": " 117286",
-    "committee": " Built Environment",
+    "committee": "Built Environment",
     "date_data_retrieved": "July 13 2012 7:43 AM ",
     "date_introduced_referred_to_committee": " Sep 6,2011",
     "record_type": "Council Bill ",
@@ -1126,11 +1116,11 @@
   },
   {
     "cf_ord_res_no_": " 117271",
-    "committee": " BuiltEnvironment",
+    "committee": "Built Environment",
     "date_data_retrieved": "July 13 2012 7:43 AM ",
     "date_introduced_referred_to_committee": " Aug 15,2011",
     "indexing_terms": " LAND-USE-PLANNING, REZONES, ROOSEVELT",
-    "misc_notes": " ThisCouncil Bill was replaced by <ahref=\"http://clerk.seattle.gov/~scripts/nph-brs.exe?s1=&s3=&s4=123816&s2=&s5=&Sect4=AND&l=20&Sect2=THESON&Sect3=PLURON&Sect5=CBORY&Sect6=HITOFF&d=ORDF&p=1&u=%2F~public%2Fcbory.htm&r=1&f=G\">Ordinance 123816</a>, passed by the Full Councilon January 30, 2012.",
+    "misc_notes": " ThisCouncil Bill was replaced by <a href=\"http://clerk.seattle.gov/~scripts/nph-brs.exe?s1=&s3=&s4=123816&s2=&s5=&Sect4=AND&l=20&Sect2=THESON&Sect3=PLURON&Sect5=CBORY&Sect6=HITOFF&d=ORDF&p=1&u=%2F~public%2Fcbory.htm&r=1&f=G\">Ordinance 123816</a>, passed by theFull Councilon January 30, 2012.",
     "record_type": "Council Bill ",
     "sponsor": " CLARK",
     "title": " AN ORDINANCE relating to land use and zoning within theRoosevelt Residential Urban Village, changing the zoning designations ofcertain lands, establishing a new Station Area Overlay District, expanding anexisting pedestrian zoning designation, modifying certain general locationalcriteria for single family zones, and amending sections: 23.34.010 and amendingthe Official Land Use Map, Chapter 23.32, at pages 43 and 60 to rezone areaswithin the Roosevelt Residential Urban Village.",
@@ -1138,13 +1128,13 @@
   },
   {
     "cf_ord_res_no_": " 117166",
-    "committee": " Transportation",
+    "committee": "Transportation",
     "date_data_retrieved": "July 13 2012 7:43 AM ",
     "date_introduced_referred_to_committee": " May 2,2011",
     "indexing_terms": "STREET-USE-PERMITS, FEES, STREETS, SHORELANDS",
     "record_type": "Council Bill ",
     "sponsor": " RASMUSSEN",
-    "title": " AN ORDINANCE relating to Shoreline Street End permits; amendingthe current Seattle Department of Transportation Street Use Fee Schedule byamending the Shoreline Street End permit fee methodology, and repealing Section1 and Attachment A of Ordinance 119673 Shoreline Street End Permit FeeMethodology.",
+    "title": " AN ORDINANCE relating to Shoreline Street End permits; amendingthe current Seattle Department ofTransportation Street Use Fee Schedule byamending the Shoreline Street End permit fee methodology, and repealing Section1 and Attachment A of Ordinance 119673 Shoreline Street End Permit FeeMethodology.",
     "url": "http://clerk.seattle.gov/~scripts/nph-brs.exe?s1=&s3=117166&l=20&Sect5=CBORY&Sect6=HITOFF&d=ORDF&p=1&u=%2F~public%2Fcbory.htm&r=0&f=S"
   },
   {
@@ -1155,12 +1145,12 @@
     "indexing_terms": " STREET-USE-PERMITS, EATING-AND-DRINKING-PLACES,STREET-VENDING",
     "record_type": "Council Bill ",
     "sponsor": " CLARK",
-    "title": " AN ORDINANCE relating to street-food vending, merchandisedisplays, and sidewalk cafes; amending Sections 11.14.450, 11.16.280,11.23.420, 11.23.440, 11.31.121, 11.72.430, 15.02.042, 15.02.044, 15.02.046,15.02.048, 15.04.074, 15.16.010, 15.16.012, 15.16.020, 15.16.040, 15.16.050,15.16.060, 15.16.070, 15.16.080, 15.17.005, 15.17.050, 15.17.080, 15.17.100,15.17.150, 15.17.200, 15.91.010, and 15.91.016 of the Seattle Municipal Code;adding Sections 11.14.157, 11.14.227, 11.14.228, 11.72.195, 15.16.075,15.17.006, 15.17.007, 15.17.008, 15.17.009, 15.17.120, 15.17.130, 15.17.152,and 15.17.250; repealing Chapter 10.10, and Sections 10.03.110, 15.17.010, and15.17.020; amending the current Seattle Department of Transportation Street Usefee schedule by adding new vending-related Street Use permit use codes andamending vending-related Street Use permit fees.",
+    "title": " AN ORDINANCE relating to street-food vending, merchandisedisplays, and sidewalk cafes; amending Sections 11.14.450, 11.16.280,11.23.420, 11.23.440, 11.31.121, 11.72.430, 15.02.042, 15.02.044, 15.02.046,15.02.048, 15.04.074, 15.16.010, 15.16.012, 15.16.020, 15.16.040, 15.16.050,15.16.060, 15.16.070, 15.16.080, 15.17.005, 15.17.050, 15.17.080, 15.17.100,15.17.150, 15.17.200, 15.91.010, and 15.91.016 of the Seattle Municipal Code;adding Sections 11.14.157, 11.14.227, 11.14.228, 11.72.195, 15.16.075,15.17.006, 15.17.007, 15.17.008, 15.17.009, 15.17.120, 15.17.130, 15.17.152,and 15.17.250; repealing Chapter 10.10, and Sections 10.03.110, 15.17.010, and15.17.020; amending the current Seattle Department ofTransportation Street Usefee schedule by adding new vending-related Street Use permit use codes andamending vending-related Street Use permit fees.",
     "url": "http://clerk.seattle.gov/~scripts/nph-brs.exe?s1=&s3=117165&l=20&Sect5=CBORY&Sect6=HITOFF&d=ORDF&p=1&u=%2F~public%2Fcbory.htm&r=0&f=S"
   },
   {
     "cf_ord_res_no_": " 116758",
-    "committee": "Parks and Seattle Center",
+    "committee": "Parks and Neighborhoods",
     "date_data_retrieved": "July 13 2012 7:43 AM ",
     "date_introduced_referred_to_committee": " Dec 7,2009",
     "indexing_terms": " SEATTLE-CENTER-FACILITIES,HIGH-SCHOOL-MEMORIAL-STADIUM,",
@@ -1169,4 +1159,6 @@
     "title": " AN ORDINANCE relating to the Seattle Center Department;authorizing the execution of a Memorandum of Agreement between the City andSeattle Schools regarding Memorial Stadium; establishing the terms upon whichthe City and Seattle Schools will enter into further agreements for theexchange of certain real property interests.",
     "url": "http://clerk.seattle.gov/~scripts/nph-brs.exe?s1=&s3=116758&l=20&Sect5=CBORY&Sect6=HITOFF&d=ORDF&p=1&u=%2F~public%2Fcbory.htm&r=0&f=S"
   }
-]
+];
+
+module.exports = bills;
