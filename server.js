@@ -14,6 +14,7 @@ app.get('/', (req, res) => {
 	res.render('index');
 });
 
+
 app.get('/signup', (req, res) => {
 	res.render('signup');
 });
@@ -25,5 +26,6 @@ app.get('/login', (req, res) => {
 app.get('/account', (req, res) => {
 	res.render('account');
 })
+
 
 app.listen(port, function() {console.log('Hooked on ' + port)});

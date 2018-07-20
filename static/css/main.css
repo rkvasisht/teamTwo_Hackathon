@@ -46,3 +46,14 @@ main {
 	height: 100px;
 	width: 300px;
 }
+
+#tagOne {
+	display: inline-block;
+
+}
+
+#tagOneButton{
+	display: inline-block;
+	padding-left: 450px;
+	font-size: large;
+}
