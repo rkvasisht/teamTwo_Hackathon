@@ -1,3 +1,4 @@
+
 $(document).ready(function() {
 
     // Initialize Materialize components
@@ -15,4 +16,7 @@ $(document).ready(function() {
       e.preventDefault();
   	});
 });
+<<<<<<< HEAD
+=======
 
+>>>>>>> 7ae935f6d3be182b62a8729a522c88d18854b147
