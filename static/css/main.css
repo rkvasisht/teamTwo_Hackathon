@@ -226,6 +226,19 @@ input {
     top: 0.1em;
     line-height: 25px;
   }
+  
+.home-btns {
+	margin-top: 0.5em;
+}
+
+.btn-container {
+	width: 100%;
+	text-align: right;
+}
+
+.dropdown-content li>a, .dropdown-content li>span {
+	color: #003d85;
+}
 
 /********* KACY CSS ****************/
 

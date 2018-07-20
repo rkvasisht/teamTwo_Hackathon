@@ -1,9 +1,9 @@
-
 <div class="row">
 	<form>
 		<div class="input-field">
 			<p>Search by Committee</p>
 		  <select name="select-committee" id="select-committee">
+		  	<option value="allCommittees">All Committees</option>
 		  	<option value="planningCommittee">Planning, Land Use, and Sustainability</option>
 		  	<option value="transportationCommittee">Transportation</option>
 		  	<option value="energyCommittee">Energy and Environment</option>
@@ -13,7 +13,6 @@
 		  	<option value="publicSafetyCommittee">Public Safety, Civil Rights, and Technology</option>
 		  	<option value="librariesCommittee">Libraries, Utilities, and Center</option>
 		  	<option value="builtCommittee">Built Environment</option>
-		  	<option value="allCommittees">All Committees</option>
 		  </select>
 		</div>
 	</form>
@@ -80,11 +79,21 @@
 			  </div>
 			  <div class="collapsible-body">
 			  	<p><%= accContent %></p>
-			  	<button class="btn" href="<%= bill.url %>" target="_blank">View Full Bill</button>
-			  	<button class="btn" target="_blank">Follow this Bill</button>
+			  	<div class="btn-container">
+			  	<a class="btn home-btns" href="<%= bill.url %>" target="_blank">View Full</a>
+			  	<button data-target="modal2" class="btn home-btns modal-trigger">Create Alert</button>
+			  </div>
 			  </div>
 			</li>
 	  <% }) %>
 	</ul>
 </div>
+
+ <div id="modal2" class="modal">
+    <div class="modal-content">
+      <h5 class="signup">Alert Created!</h5>
+    <div class="modal-footer">
+      <a href="/" class="modal-close waves-effect waves-green btn">Close</a>
+    </div>
+  </div>
 
