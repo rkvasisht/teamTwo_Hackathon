@@ -10,14 +10,29 @@
   </head>
 
   <body>
-    <div class="container">
-      <div class="row">
-        <div class="col l12 s12 center">
-          <h3>Political Site 'n Stuff</h3>
-        </div>
-          <%- body %>
+    <nav>
+      <div class="nav-wrapper">
+        <a href="/" class="brand-logo left">Legislature</a>
+        <ul id="nav-mobile" class="right">
+            <li><a href="/">Set Alerts</a></li>
+            <li><a href="/user"><i class="material-icons">account_circle</i></a></li>
+        </ul>
       </div>
-    </div>
+    </nav>
+
+    <main class="container">
+      <%- body %>
+    </main>
+
+    <footer class="page-footer">
+      <div class="footer-copyright">
+        <div class="container">
+        © 2018 GA WDI + UX
+        <a class="footer-links grey-text text-lighten-4 right" href="/">Contact</a>
+        <a class="footer-links grey-text text-lighten-4 right" href="/">About</a>
+        </div>
+      </div>
+    </footer>
     
 	  <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
 	  <script src='../js/main.js'></script>

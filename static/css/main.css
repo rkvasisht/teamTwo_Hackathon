@@ -1,3 +1,17 @@
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+  }
+
+main {
+  flex: 1 0 auto;
+}
+
+.footer-links {
+	margin-left: 0.5em;
+}
+
 .tag {
 	display: inline-block;
 	padding: 0.5em;
