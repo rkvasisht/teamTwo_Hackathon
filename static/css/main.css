@@ -27,7 +27,7 @@ nav,
 }
 
 .shaded {
-	background-color: #4680E4;
+	background-color: #DDD;
 }
 
 #alertOne {
@@ -41,7 +41,15 @@ nav,
 	margin-bottom: 0;
 }
 
+.signup {
+	margin-bottom: 0.7em;
+}
 
+.or {
+	width: 90%;
+	margin: 0 auto;
+	text-align: center;
+}
 
 .btn {
 	background-color: #00B455;
@@ -50,6 +58,7 @@ nav,
 .google-img {
 	display: block;
 	width: 75%;
+	margin: 0 auto;
 	height: auto;
 }
 
@@ -71,4 +80,8 @@ input {
 
 .account {
 	margin-bottom: .7em;
+}
+
+#modal1 {
+	max-height: 90%;
 }
