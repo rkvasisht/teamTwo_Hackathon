@@ -15,6 +15,16 @@ $(document).ready(function() {
 	  //   // var userEmail = $("[name='email']").val();
    //    e.preventDefault();
   	// });
+
+    $('#select-committee').change(function(e) {
+      if(e.target.value === 'allCommittees') {
+        $('.hide').removeClass('hide');
+      }
+      else {
+        $('.hide').removeClass('hide');
+        $('.collapsible-header').not('.' + e.target.value).addClass('hide');
+      }
+    });
 });
 
 
