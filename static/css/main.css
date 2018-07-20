@@ -29,13 +29,16 @@ nav,
 	background-color: #DDD;
 }
 
-#tagOne {
+#alertOne {
+	padding: 20px;
+}
+
+#alertOne {
 	display: inline-block;
 
 }
 
-#tagOneButton{
+#alertOneButton{
 	display: inline-block;
-	padding-left: 450px;
-	font-size: large;
+	padding-left: 250px;
 }
