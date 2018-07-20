@@ -1,0 +1,28 @@
+.tag {
+	display: inline-block;
+	padding: 0.5em;
+	margin: 0.25em;
+	border: 1px solid #DDD;
+  border-radius: 0.5em;
+}
+
+.shaded {
+	background-color: #DDD;
+}
+
+#trapezoid-container {
+	display: inline;
+}
+
+#triangle-right {
+	width: 0;
+	height: 0;
+	border-top: 50px solid transparent;
+	border-left: 100px solid red;
+	border-bottom: 50px solid transparent;
+}
+
+#rectangle {
+	height: 100px;
+	width: 300px;
+}
