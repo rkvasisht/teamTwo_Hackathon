@@ -27,7 +27,7 @@ nav,
 }
 
 .shaded {
-	background-color: #4680E4;
+	background-color: #DDD;
 }
 
 #alertOne {
@@ -41,7 +41,15 @@ nav,
 	margin-bottom: 0;
 }
 
+.signup {
+	margin-bottom: 0.7em;
+}
 
+.or {
+	width: 90%;
+	margin: 0 auto;
+	text-align: center;
+}
 
 .btn {
 	background-color: #00B455;
@@ -50,6 +58,7 @@ nav,
 .google-img {
 	display: block;
 	width: 75%;
+	margin: 0 auto;
 	height: auto;
 }
 
@@ -73,9 +82,9 @@ input {
 	margin-bottom: .7em;
 }
 
-
-
-/********* KACY CSS ****************/
+#modal1 {
+	max-height: 90%;
+}
 
 .hide {
 	display: none;
@@ -97,7 +106,6 @@ input {
 }
 
 .bill-date {text-align: right;}
-
 
 .planningCommittee {
 	background-color: rgba(252, 179, 175, 0.2);
@@ -191,3 +199,4 @@ input {
 
 
 /********* KACY CSS ****************/
+
