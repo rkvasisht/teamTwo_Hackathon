@@ -1,37 +1,44 @@
 
-<h5>What legislation topics do you want to be notified about?</h5>
-<!-- EJS would go here to conditionally render topics -->
-<p class="tag">Healthcare</p>
-<p class="tag">Homelessness</p>
-<p class="tag">Affordable Housing</p>
-<p class="tag">Land Use</p>
-<p class="tag">Transportation</p>
-<p class="tag">Public Safety</p>
-<p class="tag">Civil Rights</p>
-<p class="tag">Parks & Neighborhoods</p>
-<p>...or tell us a keyword you want us to watch for:</p>
-<input type="text" name="search"></input>
-<h5>What's your email?</h5>
-<input type="email" name="search"></input>
-<button class="btn" type="submit">Get Legislation in Committee</button>
+<div class="row">
+	<ul class="collapsible">
+	  <% bills.forEach((bill) => { %>
+			<% var className %>
 
-<div id="trapezoid-container">
-	<div id="rectangle"></div>
-	<div id="triangle-right"></div>
+			<% if (bill.committee === "Planning, Land Use, and Sustainability") { -%>
+				<% className = 'planningCommittee collapsible-header '; %>
+			<% } else if (bill.committee === 'Government Performance and Finance') { -%>
+				<% className = 'governmentCommittee collapsible-header' %>
+			<% } else if(bill.committee === 'Public Safety, Civil Rights, and Technology') { %>
+				<% className = 'publicSafetyCommittee collapsible-header' %>
+			<% } else if(bill.committee === 'Transportation') { %>
+				<% className = 'transportationCommittee collapsible-header' %>
+			<% } else if(bill.committee === 'Energy and Environment') { %>
+				<% className = 'energyCommittee collapsible-header' %>
+			<% } else if(bill.committee === 'Housing, Human Services, Health, and Culture') { %>
+				<% className = 'housingCommittee collapsible-header' %>
+			<% } else if(bill.committee === 'Economic Resiliency and Regional Relations') { %>
+				<% className = 'economicCommittee collapsible-header' %>
+			<% } else if(bill.committee === 'Parks and Neighborhoods') { %>
+				<% className = 'parksCommittee collapsible-header' %>
+			<% } else if(bill.committee === 'Energy, Technology, and Civil Rights') { %>
+				<% className = 'energyCommittee collapsible-header' %>
+			<% } else if(bill.committee === 'Built Environment') { %>
+				<% className = 'builtCommittee collapsible-header' %>
+			<% } else if(bill.committee === 'Full Council') { %>
+				<% className = 'fullCommittee collapsible-header' %>
+			<% } else if(bill.committee === 'Libraries, Utilities, and Center') { %>
+				<% className = 'librariesCommittee collapsible-header' %>
+			<% } else { className = 'noCommittee collapsible-header' }-%>
+
+			<li>
+			  <div class="<%= className %>"><h6 class="committee-name"><%= bill.committee %></h6>&nbsp; &nbsp;<h6><%= bill.date_introduced_referred_to_committee %></h6>
+			  </div>
+			  <div class="collapsible-body">
+			  	<p><%= bill.title %></p>
+			  	<a href="<%= bill.url %>" target="_blank">View Full Bill</a>
+			  </div>
+			</li>
+	  <% }) %>
+	</ul>
 </div>
-
-<ul class="collapsible">
-  <li>
-    <div class="collapsible-header"><i class="material-icons">filter_drama</i>First</div>
-    <div class="collapsible-body"><span>Lorem ipsum dolor sit amet.</span></div>
-  </li>
-  <li>
-    <div class="collapsible-header"><i class="material-icons">place</i>Second</div>
-    <div class="collapsible-body"><span>Lorem ipsum dolor sit amet.</span></div>
-  </li>
-  <li>
-    <div class="collapsible-header"><i class="material-icons">whatshot</i>Third</div>
-    <div class="collapsible-body"><span>Lorem ipsum dolor sit amet.</span></div>
-  </li>
-</ul>
 
