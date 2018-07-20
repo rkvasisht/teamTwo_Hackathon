@@ -26,7 +26,7 @@ nav,
 }
 
 .shaded {
-	background-color: #DDD;
+	background-color: #4680E4;
 }
 
 #tagOne {
@@ -38,4 +38,14 @@ nav,
 	display: inline-block;
 	padding-left: 450px;
 	font-size: large;
+}
+
+.btn {
+	background-color: #00B455;
+}
+
+.google-img {
+	display: block;
+	width: 75%;
+	height: auto;
 }
