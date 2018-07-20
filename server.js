@@ -9,4 +9,8 @@ app.set('view engine', 'ejs');
 app.use(express.static(__dirname + 'static'));
 app.use(bp.urlencoded({extended: true}));
 
+app.get('/', (req, res) => {
+	res.render('index.ejs');
+});
+
 app.listen(port, function() {console.log('Hooked on ' + port)});
