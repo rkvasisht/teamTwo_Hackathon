@@ -1,5 +1,19 @@
 <div class="row">
 
+	<!-- Modal Structure -->
+  <div id="modal1" class="modal">
+    <div class="modal-content">
+      <h4>Create Account</h4>
+      <label>Name</label>
+      <input label="name" type="text" name="name"></input>
+      <label>Email</label>
+			<input label="email" type="email" name="email"></input>
+    </div>
+    <div class="modal-footer">
+      <a href="/" class="modal-close waves-effect waves-green btn blue">Create Account & Set Alerts</a>
+    </div>
+  </div>
+
 	<div class="col s12">
 		<h5>What legislation topics do you want to be notified about?</h5>
 		<!-- EJS would go here to conditionally render topics -->
@@ -16,9 +30,8 @@
 	<div class="col s12">
 		<p>...or tell us a keyword you want us to watch for:</p>
 		<input type="text" name="search"></input>
-		<h5>What's your email?</h5>
-		<input type="email" name="search"></input>
-		<button class="btn right blue" type="submit">Create Alert</button>
+		<!-- Modal Trigger -->
+  	<button data-target="modal1" class="btn blue right modal-trigger">Create Alert</button>
 	</div>
 	
 </div>
