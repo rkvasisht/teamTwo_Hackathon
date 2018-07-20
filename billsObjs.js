@@ -1,55 +1,5 @@
 const bills = [
   {
-    "cf_ord_res_no_": " 312456",
-    "committee": "Planning, Land Use, and Sustainability",
-    "date_data_retrieved": "July 13 2012 7:43 AM ",
-    "date_introduced_referred_to_committee": " Jul 16,2012",
-    "record_type": "Clerk File ",
-    "sponsor": " Conlin",
-    "title": " Appointment of Rita Brogan as member, Seattle ChinatownInternational District Preservation and Development Authority Council, for aterm of confirmation to December 31, 2014.",
-    "url": "http://clerk.seattle.gov/~scripts/nph-brs.exe?s1=&s3=312456&l=20&Sect5=CFCF1&Sect6=HITOFF&d=CFCF&p=1&u=%2F~public%2FCFCF1.htm&r=0&f=S"
-  },
-  {
-    "cf_ord_res_no_": " 312455",
-    "committee": "Government Performance and Finance",
-    "date_data_retrieved": "July 13 2012 7:43 AM ",
-    "date_introduced_referred_to_committee": " Jul 16,2012",
-    "record_type": "Clerk File ",
-    "sponsor": " Burgess",
-    "title": " Appointment of M. Lorena Gonzalez as member, Seattle Ethics andElections Commission, for a term of confirmation to December 31,2013.",
-    "url": "http://clerk.seattle.gov/~scripts/nph-brs.exe?s1=&s3=312455&l=20&Sect5=CFCF1&Sect6=HITOFF&d=CFCF&p=1&u=%2F~public%2FCFCF1.htm&r=0&f=S"
-  },
-  {
-    "cf_ord_res_no_": " 312432",
-    "committee": "Planning, Land Use, and Sustainability",
-    "date_data_retrieved": "July 13 2012 7:43 AM ",
-    "date_introduced_referred_to_committee": " Jun 25,2012",
-    "record_type": "Clerk File ",
-    "sponsor": " No Sponsor Required",
-    "title": " Application of AnMarCo / Pier 1 LLC to rezone approximately 6acres of land at 2130 Harbor Avenue Southwest from General Industrial 2 with an85 foot height limit (IG2 U/85) to Industrial Commercial with a 40 foot heightlimit (IC 40) and to redesignate the Seattle Shoreline Master Programenvironment from Urban Industrial (UI) to Urban Stable (US) (Project No.3009298, Type IV).",
-    "url": "http://clerk.seattle.gov/~scripts/nph-brs.exe?s1=&s3=312432&l=20&Sect5=CFCF1&Sect6=HITOFF&d=CFCF&p=1&u=%2F~public%2FCFCF1.htm&r=0&f=S"
-  },
-  {
-    "cf_ord_res_no_": " 312426",
-    "committee": "Public Safety, Civil Rights, and Technology",
-    "date_data_retrieved": "July 13 2012 7:43 AM ",
-    "date_introduced_referred_to_committee": " Jun 18,2012",
-    "record_type": "Clerk File ",
-    "sponsor": " Harrell",
-    "title": " Report of the Office of Professional Accountability Review Board(OPARB) on recommendations regarding civilian oversight of the Seattle PoliceDepartment.",
-    "url": "http://clerk.seattle.gov/~scripts/nph-brs.exe?s1=&s3=312426&l=20&Sect5=CFCF1&Sect6=HITOFF&d=CFCF&p=1&u=%2F~public%2FCFCF1.htm&r=0&f=S"
-  },
-  {
-    "cf_ord_res_no_": " 312425",
-    "committee": "Transportation",
-    "date_data_retrieved": "July 13 2012 7:43 AM ",
-    "date_introduced_referred_to_committee": " Jun 18,2012",
-    "record_type": "Clerk File ",
-    "sponsor": " No sponsor required",
-    "title": " Petition of City Investors XX, LLC to vacate a portion of thealley in Block 93, D.T. Denny's First Addition to North Seattle, bounded byMercer Street, Westlake Avenue North, Republican Street, and 9th AvenueNorth.",
-    "url": "http://clerk.seattle.gov/~scripts/nph-brs.exe?s1=&s3=312425&l=20&Sect5=CFCF1&Sect6=HITOFF&d=CFCF&p=1&u=%2F~public%2FCFCF1.htm&r=0&f=S"
-  },
-  {
     "cf_ord_res_no_": " 312413",
     "committee": "Energy and Environment",
     "date_data_retrieved": "July 13 2012 7:43 AM ",
@@ -61,38 +11,6 @@ const bills = [
     "url": "http://clerk.seattle.gov/~scripts/nph-brs.exe?s1=&s3=312413&l=20&Sect5=CFCF1&Sect6=HITOFF&d=CFCF&p=1&u=%2F~public%2FCFCF1.htm&r=0&f=S"
   },
   {
-    "cf_ord_res_no_": " 312380",
-    "committee": "Public Safety, Civil Rights, and Technology",
-    "date_data_retrieved": "July 13 2012 7:43 AM ",
-    "date_introduced_referred_to_committee": " Jun 4,2012",
-    "record_type": "Clerk File ",
-    "sponsor": "Harrell",
-    "title": " Appointment and Oath of Office of Magdaleno M. Leno Rose-Avilaas Director of the Office of Immigrant and Refugee Affairs.",
-    "url": "http://clerk.seattle.gov/~scripts/nph-brs.exe?s1=&s3=312380&l=20&Sect5=CFCF1&Sect6=HITOFF&d=CFCF&p=1&u=%2F~public%2FCFCF1.htm&r=0&f=S"
-  },
-  {
-    "cf_ord_res_no_": " 312367",
-    "committee": "Housing, Human Services, Health, and Culture",
-    "date_data_retrieved": "July 13 2012 7:43 AM ",
-    "date_introduced_referred_to_committee": " May 29,2012",
-    "indexing_terms": " APPOINTMENT, PUBLIC-CORPORATIONS,HOSPITALS, HEALTH-CARE",
-    "record_type": "Clerk File ",
-    "sponsor": " Licata",
-    "title": " Appointment of Judith M. Tobin as member, Pacific HospitalPreservation and Development Authority Governing Council, for a term ofconfirmation to December 31, 2015.",
-    "url": "http://clerk.seattle.gov/~scripts/nph-brs.exe?s1=&s3=312367&l=20&Sect5=CFCF1&Sect6=HITOFF&d=CFCF&p=1&u=%2F~public%2FCFCF1.htm&r=0&f=S"
-  },
-  {
-    "cf_ord_res_no_": " 312365",
-    "committee": "Public Safety, Civil Rights, and Technology",
-    "date_data_retrieved": "July 13 2012 7:43 AM ",
-    "date_introduced_referred_to_committee": " May 29,2012",
-    "indexing_terms": " CITY-ATTORNEY",
-    "record_type": "Clerk File ",
-    "sponsor": " Harrell",
-    "title": " 2011 Annual Report of the Seattle City Attorney'sOffice.",
-    "url": "http://clerk.seattle.gov/~scripts/nph-brs.exe?s1=&s3=312365&l=20&Sect5=CFCF1&Sect6=HITOFF&d=CFCF&p=1&u=%2F~public%2FCFCF1.htm&r=0&f=S"
-  },
-  {
     "cf_ord_res_no_": " 31394",
     "committee": "Libraries, Utilities, and Center",
     "date_data_retrieved": "July 13 2012 7:43 AM ",
@@ -101,6 +19,16 @@ const bills = [
     "sponsor": " GODDEN",
     "title": " A RESOLUTION supporting the sale of certain water systemfacilities and transfer of a portion of retail water service to the City ofShoreline.",
     "url": "http://clerk.seattle.gov/~scripts/nph-brs.exe?s1=&s3=31394&l=20&Sect5=RESNY&Sect6=HITOFF&d=RESF&p=1&u=%2F~public%2FRESNy.htm&r=0&f=S"
+  },
+  {
+    "cf_ord_res_no_": " 117523",
+    "committee": " Public Safety, Civil Rights, and Technology",
+    "date_data_retrieved": "July 13 2012 7:43 AM ",
+    "date_introduced_referred_to_committee": " Jul 16,2012",
+    "record_type": "Council Bill ",
+    "sponsor": " HARRELL",
+    "title": " AN ORDINANCE relating to the Technology Matching Fund Program;making allocations and authorizing implementation of certain TechnologyMatching Fund projects in 2012; providing that 2012 appropriations for theTechnology Matching Fund from the Cable Television Franchise Subfund and fromthe Information Technology Fund shall automatically carry forward into the 2013fiscal year; that any unspent funds from an individual project may be appliedto another Technology Matching Fund project; and ratifying and confirmingcertain prior acts.",
+    "url": "http://clerk.seattle.gov/~scripts/nph-brs.exe?s1=&s3=117523&l=20&Sect5=CBORY&Sect6=HITOFF&d=ORDF&p=1&u=%2F~public%2Fcbory.htm&r=0&f=S"
   },
   {
     "cf_ord_res_no_": " 312357",
@@ -674,16 +602,6 @@ const bills = [
     "sponsor": " CONLIN",
     "title": " AN ORDINANCE relating to land use and zoning, amending theOfficial Land Use Map at pages 159, 173, and 174 to rezone land in the MLK atHolly St Residential Urban Village.",
     "url": "http://clerk.seattle.gov/~scripts/nph-brs.exe?s1=&s3=117376&l=20&Sect5=CBORY&Sect6=HITOFF&d=ORDF&p=1&u=%2F~public%2Fcbory.htm&r=0&f=S"
-  },
-  {
-    "cf_ord_res_no_": " 117523",
-    "committee": " Public Safety, Civil Rights, and Technology",
-    "date_data_retrieved": "July 13 2012 7:43 AM ",
-    "date_introduced_referred_to_committee": " Jul 16,2012",
-    "record_type": "Council Bill ",
-    "sponsor": " HARRELL",
-    "title": " AN ORDINANCE relating to the Technology Matching Fund Program;making allocations and authorizing implementation of certain TechnologyMatching Fund projects in 2012; providing that 2012 appropriations for theTechnology Matching Fund from the Cable Television Franchise Subfund and fromthe Information Technology Fund shall automatically carry forward into the 2013fiscal year; that any unspent funds from an individual project may be appliedto another Technology Matching Fund project; and ratifying and confirmingcertain prior acts.",
-    "url": "http://clerk.seattle.gov/~scripts/nph-brs.exe?s1=&s3=117523&l=20&Sect5=CBORY&Sect6=HITOFF&d=ORDF&p=1&u=%2F~public%2Fcbory.htm&r=0&f=S"
   },
   {
     "cf_ord_res_no_": " 117520",
