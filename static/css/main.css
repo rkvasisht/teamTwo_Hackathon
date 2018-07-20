@@ -39,3 +39,30 @@ nav,
 	padding-left: 450px;
 	font-size: large;
 }
+
+
+
+/********* KACY CSS ****************/
+
+.hide {
+	display: none;
+}
+
+.collapsible-labels {
+	display: flex;
+	width: 100%;
+	justify-content: space-between;
+}
+
+.collapsible-header {
+	display: flex;
+	align-items: center;
+}
+
+.committee-name, .bill-title, .bill-date {
+	flex: 1;
+}
+
+.bill-date {text-align: right;}
+
+/********* KACY CSS ****************/
