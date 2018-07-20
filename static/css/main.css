@@ -8,6 +8,11 @@ main {
   flex: 1 0 auto;
 }
 
+nav,
+.page-footer {
+	background-color: #003d85;
+}
+
 .footer-links {
 	margin-left: 0.5em;
 }
@@ -22,27 +27,4 @@ main {
 
 .shaded {
 	background-color: #DDD;
-}
-
-#trapezoid-container {
-	display: inline;
-}
-
-#triangle-right {
-	display: inline-block;
-	margin: 0;
-	width: 0;
-	height: 0;
-	border-top: 50px solid transparent;
-	border-left: 100px solid red;
-	border-bottom: 50px solid transparent;
-}
-
-#rectangle {
-	margin: 0;
-	display: inline-block;
-	background-color: red;
-	border: 1px solid red;
-	height: 100px;
-	width: 300px;
 }
