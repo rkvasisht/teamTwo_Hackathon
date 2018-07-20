@@ -10,7 +10,7 @@ app.use(express.static(__dirname + 'static'));
 app.use(bp.urlencoded({extended: true}));
 
 app.get('/', (req, res) => {
-	res.render('index.ejs');
+	res.render('index');
 });
 
 app.listen(port, function() {console.log('Hooked on ' + port)});
