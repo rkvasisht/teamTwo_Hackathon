@@ -14,4 +14,7 @@ app.get('/', (req, res) => {
 	res.render('index');
 });
 
+app.get('/account', (req, res) => {
+	res.render('account');
+})
 app.listen(port, function() {console.log('Hooked on ' + port)});
