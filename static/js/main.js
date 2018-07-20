@@ -8,8 +8,9 @@ $(document).ready(function() {
     $(this).toggleClass("shaded") })
 
     // DELETE a specific comment from the database
-  	$(".login").on('submit', function() {
+  	$(".login").on('submit', function(e) {
 	    var userName = $("input:text").val();
-	    var userEmail = $("input:email").val();
+	    // var userEmail = $("[name='email']").val();
+      e.preventDefault();
   	});
 });
