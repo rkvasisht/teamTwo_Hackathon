@@ -1,24 +1,39 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-	  <title>Hackathon</title>
-	  <meta charset="utf-8">
+    <title>Hackathon</title>
+    <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-	  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/css/materialize.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/css/materialize.min.css">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-	  <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/main.css">
   </head>
 
   <body>
-    <div class="container">
-    	<div class="row">
-    		<div class="col l12 s12 center">
-	    		<h3>Political Site 'n Stuff</h3>
-	    	</div>
-          <%- body %>
-	  	</div>
-	  </div>
+    <nav>
+      <div class="nav-wrapper">
+        <a href="/" class="brand-logo left">Legislature</a>
+        <ul id="nav-mobile" class="right">
+            <li><a href="/">Set Alerts</a></li>
+            <li><a href="/login"><i class="material-icons">account_circle</i></a></li>
+        </ul>
+      </div>
+    </nav>
 
+    <main class="container">
+      <%- body %>
+    </main>
+
+    <footer class="page-footer">
+      <div class="footer-copyright">
+        <div class="container">
+        © 2018 GA WDI + UX
+        <a class="footer-links grey-text text-lighten-4 right" href="/">Contact</a>
+        <a class="footer-links grey-text text-lighten-4 right" href="/">About</a>
+        </div>
+      </div>
+    </footer>
+    
 	  <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
 	  <script src='../js/main.js'></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/js/materialize.min.js"></script>
