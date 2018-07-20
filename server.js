@@ -14,6 +14,10 @@ app.get('/', (req, res) => {
 	res.render('index');
 });
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> 7ae935f6d3be182b62a8729a522c88d18854b147
 app.get('/signup', (req, res) => {
 	res.render('signup');
 });
@@ -26,4 +30,8 @@ app.get('/account', (req, res) => {
 	res.render('account');
 })
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> 7ae935f6d3be182b62a8729a522c88d18854b147
 app.listen(port, function() {console.log('Hooked on ' + port)});
