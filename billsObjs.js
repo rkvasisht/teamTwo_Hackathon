@@ -22,7 +22,7 @@ const bills = [
   },
   {
     "cf_ord_res_no_": " 117523",
-    "committee": " Public Safety, Civil Rights, and Technology",
+    "committee": "Public Safety, Civil Rights, and Technology",
     "date_data_retrieved": "July 13 2012 7:43 AM ",
     "date_introduced_referred_to_committee": " Jul 16,2012",
     "record_type": "Council Bill ",
@@ -285,16 +285,6 @@ const bills = [
     "url": "http://clerk.seattle.gov/~scripts/nph-brs.exe?s1=&s3=311901&l=20&Sect5=CFCF1&Sect6=HITOFF&d=CFCF&p=1&u=%2F~public%2FCFCF1.htm&r=0&f=S"
   },
   {
-    "cf_ord_res_no_": " 311892",
-    "committee": "Energy, Technology, and Civil Rights",
-    "date_data_retrieved": "July 13 2012 7:43 AM ",
-    "date_introduced_referred_to_committee": " Nov 28,2011",
-    "record_type": "Clerk File ",
-    "sponsor": "Harrell",
-    "title": " Appointment of Michael Villanueva as member, Seattle LGBTCommission, for a term of confirmation to April 30, 2013.",
-    "url": "http://clerk.seattle.gov/~scripts/nph-brs.exe?s1=&s3=311892&l=20&Sect5=CFCF1&Sect6=HITOFF&d=CFCF&p=1&u=%2F~public%2FCFCF1.htm&r=0&f=S"
-  },
-  {
     "cf_ord_res_no_": " 311874",
     "committee": "Transportation",
     "date_data_retrieved": "July 13 2012 7:43 AM ",
@@ -357,27 +347,6 @@ const bills = [
     "sponsor": "Rasmussen",
     "title": " Petition of Alexandria Real Estate Equities, Inc. for thevacation of East Nelson Place at 1150 Eastlake Avenue East.",
     "url": "http://clerk.seattle.gov/~scripts/nph-brs.exe?s1=&s3=311685&l=20&Sect5=CFCF1&Sect6=HITOFF&d=CFCF&p=1&u=%2F~public%2FCFCF1.htm&r=0&f=S"
-  },
-  {
-    "cf_ord_res_no_": " 311662",
-    "committee": "Full Council",
-    "date_data_retrieved": "July 13 2012 7:43 AM ",
-    "date_introduced_referred_to_committee": " Jul 18,2011",
-    "record_type": "Clerk File ",
-    "sponsor": " No Sponsor Required",
-    "title": " Application of Kevin Broderick, Broderick Architects, for L.R.Columbus, LLC, to rezone 6,600 square feet of land at 3902 S. Ferdinand Streetfrom Lowrise 3 (LR3) to Lowrise 3-Residential Commercial (LR3-RC); formodification and expansion of existing residential building by changing threeof eight residential units to commercial use (C.F. 311662, Project No. 3011960,Type IV).",
-    "url": "http://clerk.seattle.gov/~scripts/nph-brs.exe?s1=&s3=311662&l=20&Sect5=CFCF1&Sect6=HITOFF&d=CFCF&p=1&u=%2F~public%2FCFCF1.htm&r=0&f=S"
-  },
-  {
-    "cf_ord_res_no_": " 311626",
-    "committee": " Energy, Technology, and Civil Rights",
-    "date_data_retrieved": "July 13 2012 7:43 AM ",
-    "date_introduced_referred_to_committee": " Jul 18,2011",
-    "misc_notes": " Originally referred to the Housing, Human Services,Health, and Culture Committee on June 27, 2011.",
-    "record_type": "Clerk File ",
-    "sponsor": " Harrell",
-    "title": " Reappointment of Paulina Lopez Bermudez as member, Immigrant andRefugee Advisory Board, for a term of confirmation to January 31,2013.",
-    "url": "http://clerk.seattle.gov/~scripts/nph-brs.exe?s1=&s3=311626&l=20&Sect5=CFCF1&Sect6=HITOFF&d=CFCF&p=1&u=%2F~public%2FCFCF1.htm&r=0&f=S"
   },
   {
     "cf_ord_res_no_": " 311623",
@@ -451,17 +420,6 @@ const bills = [
     "sponsor": "Clark",
     "title": " Application of Edward Hewson to rezone 203,857 square feet ofland at 6501 15th Avenue NE (Project #3010100, Type IV).",
     "url": "http://clerk.seattle.gov/~scripts/nph-brs.exe?s1=&s3=310853&l=20&Sect5=CFCF1&Sect6=HITOFF&d=CFCF&p=1&u=%2F~public%2FCFCF1.htm&r=0&f=S"
-  },
-  {
-    "cf_ord_res_no_": " 310821",
-    "committee": "Full Council",
-    "date_data_retrieved": "July 13 2012 7:43 AM ",
-    "date_introduced_referred_to_committee": " May 24,2010",
-    "indexing_terms": " EASTLAKE, SUBDIVISION,LAND-USE-PERMITS",
-    "record_type": "Clerk File ",
-    "sponsor": " No Sponsor Required",
-    "title": " Full subdivision application of Mike Yukovich to subdivide oneparcel into 21 parcels of land in an environmentally critical area, located at2808 Fairview Avenue East (Project No. 3011009/Type III).",
-    "url": "http://clerk.seattle.gov/~scripts/nph-brs.exe?s1=&s3=310821&l=20&Sect5=CFCF1&Sect6=HITOFF&d=CFCF&p=1&u=%2F~public%2FCFCF1.htm&r=0&f=S"
   },
   {
     "cf_ord_res_no_": " 310087",
@@ -648,17 +606,6 @@ const bills = [
     "url": "http://clerk.seattle.gov/~scripts/nph-brs.exe?s1=&s3=117518&l=20&Sect5=CBORY&Sect6=HITOFF&d=ORDF&p=1&u=%2F~public%2Fcbory.htm&r=0&f=S"
   },
   {
-    "cf_ord_res_no_": " 117517",
-    "committee": "Full Council",
-    "date_data_retrieved": "July 13 2012 7:43 AM ",
-    "date_introduced_referred_to_committee": " Jul 9,2012",
-    "indexing_terms": " ZONING, LAND-USE-CODE, CONTRACT-REZONES,COLUMBIA-CITY",
-    "record_type": "Council Bill ",
-    "sponsor": " CONLIN",
-    "title": " AN ORDINANCE relating to land use and zoning; amending Chapter23.32 of the Seattle Municipal Code at page 159 of the Official Land Use Map torezone property located at 3902 S. Ferdinand Street from Lowrise 3 (LR3) andSingle Family 5000 (SF 5000) to Lowrise 3 with a Residential- Commercialoverlay zone (LR3-RC) and SF 5000 (Application of Kevin Broderick , C.F.311662, Project No. 3011960, Type IV).",
-    "url": "http://clerk.seattle.gov/~scripts/nph-brs.exe?s1=&s3=117517&l=20&Sect5=CBORY&Sect6=HITOFF&d=ORDF&p=1&u=%2F~public%2Fcbory.htm&r=0&f=S"
-  },
-  {
     "cf_ord_res_no_": " 117515",
     "committee": "Libraries, Utilities, and Center",
     "date_data_retrieved": "July 13 2012 7:43 AM ",
@@ -679,17 +626,6 @@ const bills = [
     "sponsor": " CONLIN",
     "title": " AN ORDINANCE relating to land use and zoning, amending Sections23.40.060 and 23.41.012 of the Seattle Municipal Code to provide additionaldesign departures under the Demonstration Program for Living Building Designimplemented by Section 23.40.060.",
     "url": "http://clerk.seattle.gov/~scripts/nph-brs.exe?s1=&s3=117516&l=20&Sect5=CBORY&Sect6=HITOFF&d=ORDF&p=1&u=%2F~public%2Fcbory.htm&r=0&f=S"
-  },
-  {
-    "cf_ord_res_no_": " 117514",
-    "committee": "Full Council",
-    "date_data_retrieved": "July 13 2012 7:43 AM ",
-    "date_introduced_referred_to_committee": " Jul 9,2012",
-    "indexing_terms": " FINANCE",
-    "record_type": "Council Bill ",
-    "sponsor": " BURGESS",
-    "title": " AN ORDINANCE appropriating money to pay certain audited claimsand ordering the payment thereof.",
-    "url": "http://clerk.seattle.gov/~scripts/nph-brs.exe?s1=&s3=117514&l=20&Sect5=CBORY&Sect6=HITOFF&d=ORDF&p=1&u=%2F~public%2Fcbory.htm&r=0&f=S"
   },
   {
     "cf_ord_res_no_": " 117430",
@@ -802,30 +738,6 @@ const bills = [
     "url": "http://clerk.seattle.gov/~scripts/nph-brs.exe?s1=&s3=117504&l=20&Sect5=CBORY&Sect6=HITOFF&d=ORDF&p=1&u=%2F~public%2Fcbory.htm&r=0&f=S"
   },
   {
-    "cf_ord_res_no_": " 117501",
-    "committee": "Government Performance and Finance",
-    "date_data_retrieved": "July 13 2012 7:43 AM ",
-    "date_introduced_referred_to_committee": " Jun 25,2012",
-    "indexing_terms": "GRANTS, BUDGET",
-    "misc_notes": " 2012 1st Quarter Grant Acceptance Ordinance",
-    "record_type": "Council Bill ",
-    "sponsor": " BURGESS",
-    "title": " AN ORDINANCE authorizing, in 2012, acceptance of funding fromnon-City sources; authorizing the heads of the Seattle Fire Department, SeattlePolice Department, Office of Economic Development, Office of Sustainability andEnvironment, Department of Neighborhoods, Human Services Department, Departmentof Information Technology, Seattle City Light, Department of Parks andRecreation, Seattle Department ofTransportation and Seattle Public Utilitiesto accept specified grants and private funding and to execute, deliver, andperform corresponding agreements; and ratifying and confirming certain prioracts.",
-    "url": "http://clerk.seattle.gov/~scripts/nph-brs.exe?s1=&s3=117501&l=20&Sect5=CBORY&Sect6=HITOFF&d=ORDF&p=1&u=%2F~public%2Fcbory.htm&r=0&f=S"
-  },
-  {
-    "cf_ord_res_no_": " 117500",
-    "committee": "Government Performance and Finance",
-    "date_data_retrieved": "July 13 2012 7:43 AM ",
-    "date_introduced_referred_to_committee": " Jun 25,2012",
-    "indexing_terms": " BUDGET,CAPITAL-IMPROVEMENT-PROGRAM, FUNDS, FINANCE",
-    "misc_notes": " 2012 First QuarterSupplemental Ordinance",
-    "record_type": "Council Bill ",
-    "sponsor": " BURGESS",
-    "title": " AN ORDINANCE related to the 2012 Budget; amending Ordinance123758, which adopted the 2012 Budget, including the 2012-2017 CapitalImprovement Program (CIP); changing appropriations to various departments andbudget control levels, and from various funds in the Budget; making cashtransfers between various City funds; adding new projects; revising projectallocations for certain projects in the 2012-2017 CIP; creating exemptpositions; creating new positions; and ratifying and confirming certain prioracts; all by a 3/4 vote of the City Council.",
-    "url": "http://clerk.seattle.gov/~scripts/nph-brs.exe?s1=&s3=117500&l=20&Sect5=CBORY&Sect6=HITOFF&d=ORDF&p=1&u=%2F~public%2Fcbory.htm&r=0&f=S"
-  },
-  {
     "cf_ord_res_no_": " 117497",
     "committee": "Transportation",
     "date_data_retrieved": "July 13 2012 7:43 AM ",
@@ -924,17 +836,6 @@ const bills = [
     "url": "http://clerk.seattle.gov/~scripts/nph-brs.exe?s1=&s3=117487&l=20&Sect5=CBORY&Sect6=HITOFF&d=ORDF&p=1&u=%2F~public%2Fcbory.htm&r=0&f=S"
   },
   {
-    "cf_ord_res_no_": " 117480",
-    "committee": " Government Performanceand Finance",
-    "date_data_retrieved": "July 13 2012 7:43 AM ",
-    "date_introduced_referred_to_committee": " May 29,2012",
-    "indexing_terms": " ARENAS-AND-STADIUMS, RECREATIONAL-FACILITIES,INTERLOCAL-AGREEMENTS, BASKETBALL, HOCKEY, SPORTS",
-    "record_type": "Council Bill ",
-    "sponsor": " BURGESS",
-    "title": " AN ORDINANCE related to a new multi-purpose sports andentertainment facility; authorizing the Mayor to execute a memorandum ofunderstanding with King County and ArenaCo; and to execute an interlocalagreement with the County.",
-    "url": "http://clerk.seattle.gov/~scripts/nph-brs.exe?s1=&s3=117480&l=20&Sect5=CBORY&Sect6=HITOFF&d=ORDF&p=1&u=%2F~public%2Fcbory.htm&r=0&f=S"
-  },
-  {
     "cf_ord_res_no_": " 117479",
     "committee": "Transportation",
     "date_data_retrieved": "July 13 2012 7:43 AM ",
@@ -1010,17 +911,6 @@ const bills = [
     "sponsor": " CONLIN",
     "title": " AN ORDINANCE relating to the solid waste system of SeattlePublic Utilities; establishing rates and charges for solid waste services forthe Every Other Week Garbage Pilot Program; and amending Chapter 21.40.050 ofthe Seattle Municipal Code.",
     "url": "http://clerk.seattle.gov/~scripts/nph-brs.exe?s1=&s3=117440&l=20&Sect5=CBORY&Sect6=HITOFF&d=ORDF&p=1&u=%2F~public%2Fcbory.htm&r=0&f=S"
-  },
-  {
-    "cf_ord_res_no_": " 117419",
-    "committee": "Government Performance and Finance",
-    "date_data_retrieved": "July 13 2012 7:43 AM ",
-    "date_introduced_referred_to_committee": " Mar 5,2012",
-    "indexing_terms": " CITY-EMPLOYEES, PERSONNEL-ADMINISTRATION,EMPLOYMENT, CIVIL-SERVICE",
-    "record_type": "Council Bill ",
-    "sponsor": " BURGESS",
-    "title": " AN ORDINANCE relating to City employment; amending the SeattleMunicipal Code (SMC) Section 4.04.030 to expand the definition of seniority forthe purpose of determining layoff order.",
-    "url": "http://clerk.seattle.gov/~scripts/nph-brs.exe?s1=&s3=117419&l=20&Sect5=CBORY&Sect6=HITOFF&d=ORDF&p=1&u=%2F~public%2Fcbory.htm&r=0&f=S"
   },
   {
     "cf_ord_res_no_": " 117286",

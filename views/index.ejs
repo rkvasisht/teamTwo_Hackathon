@@ -5,12 +5,12 @@
 			<p>Search by Committee</p>
 		  <select name="select-committee" id="select-committee">
 		  	<option value="planningCommittee">Planning, Land Use, and Sustainability</option>
-		  	<option value="governmentCommittee">Government Performance and Finance</option>
+		  	<option value="transportationCommittee">Transportation</option>
 		  	<option value="energyCommittee">Energy and Environment</option>
 		  	<option value="housingCommittee">Housing, Human Services, Health, and Culture</option>
 		  	<option value="economicCommittee">Economic Resiliency and Regional Relation</option>
 		  	<option value="parksCommittee">Parks and Neighborhoods</option>
-		  	<option value="energyTechnologyCommittee">Energy, Technology, and Civil Rights</option>
+		  	<option value="publicSafetyCommittee">Public Safety, Civil Rights, and Technology</option>
 		  	<option value="librariesCommittee">Libraries, Utilities, and Center</option>
 		  	<option value="builtCommittee">Built Environment</option>
 		  	<option value="allCommittees">All Committees</option>
@@ -81,6 +81,7 @@
 			  <div class="collapsible-body">
 			  	<p><%= accContent %></p>
 			  	<button class="btn" href="<%= bill.url %>" target="_blank">View Full Bill</button>
+			  	<button class="btn" target="_blank">Follow this Bill</button>
 			  </div>
 			</li>
 	  <% }) %>
