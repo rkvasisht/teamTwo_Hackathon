@@ -18,6 +18,17 @@ nav,
 	margin-left: 0.5em;
 }
 
+.create-alert {
+	margin-top: 1em;
+}
+
+.img-logo {
+	margin-top: 0.28em;
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+	margin-left: 0.08em;
+}
 .tag {
 	display: inline-block;
 	padding: 0.5em;
@@ -27,7 +38,8 @@ nav,
 }
 
 .shaded {
-	background-color: #DDD;
+	background-color: #003d85;
+	color: white;
 }
 
 #alertOne {
