@@ -1,7 +1,40 @@
-
+<% console.log(content[3]) %>
 <div class="row">
+	<form>
+		<div class="input-field">
+			<p>Search by Committee</p>
+		  <select name="select-committee" id="select-committee">
+		  	<option value="planningCommittee">Planning, Land Use, and Sustainability</option>
+		  	<option value="transportationCommittee">Transportation</option>
+		  	<option value="energyCommittee">Energy and Environment</option>
+		  	<option value="housingCommittee">Housing, Human Services, Health, and Culture</option>
+		  	<option value="economicCommittee">Economic Resiliency and Regional Relation</option>
+		  	<option value="parksCommittee">Parks and Neighborhoods</option>
+		  	<option value="publicSafetyCommittee">Public Safety, Civil Rights, and Technology</option>
+		  	<option value="librariesCommittee">Libraries, Utilities, and Center</option>
+		  	<option value="builtCommittee">Built Environment</option>
+		  	<option value="allCommittees">All Committees</option>
+		  </select>
+		</div>
+	</form>
+	<div class="collapsible-labels">
+		<p>Committee Name</p>
+		<p>Title</p>
+		<p>Date Introduced</p>
+	</div>
 	<ul class="collapsible">
-	  <% bills.forEach((bill) => { %>
+	  <% bills.forEach((bill, i) => { %>
+			<% let accContent = ''; %>
+			<% if(i === 0) { %>
+				<% accContent = content[0]; %>
+			<% } else if(i === 1) {%>
+				<% accContent =  content[1]; %>
+			<% } else if(i === 2) {%>
+				<% accContent = content[2]; %>
+			<%} else {accContent = content[3]}%>
+
+
+
 			<% var className %>
 
 			<% if (bill.committee === "Planning, Land Use, and Sustainability") { -%>
@@ -21,7 +54,7 @@
 			<% } else if(bill.committee === 'Parks and Neighborhoods') { %>
 				<% className = 'parksCommittee collapsible-header' %>
 			<% } else if(bill.committee === 'Energy, Technology, and Civil Rights') { %>
-				<% className = 'energyCommittee collapsible-header' %>
+				<% className = 'energyTechnologyCommittee collapsible-header' %>
 			<% } else if(bill.committee === 'Built Environment') { %>
 				<% className = 'builtCommittee collapsible-header' %>
 			<% } else if(bill.committee === 'Full Council') { %>
@@ -30,12 +63,25 @@
 				<% className = 'librariesCommittee collapsible-header' %>
 			<% } else { className = 'noCommittee collapsible-header' }-%>
 
+			<% const titleArr = bill.title.split(' ') %>
+			<% const title = titleArr[1] + ' ' + titleArr[2] + ' ' + titleArr[3] + ' ' + titleArr[4] + ' ' + titleArr[5] + '...' %>
+
 			<li>
-			  <div class="<%= className %>"><h6 class="committee-name"><%= bill.committee %></h6>&nbsp; &nbsp;<h6><%= bill.date_introduced_referred_to_committee %></h6>
+			  <div class="<%= className %>">
+			  	<div class="committee-name">
+			  		<h6><%= bill.committee %></h6>
+			  	</div>
+			  	<div class="bill-title">
+			  		<h6><%= title %></h6>
+			  	</div>
+			  	<div class="bill-date">
+			  		<h6><%= bill.date_introduced_referred_to_committee %></h6>
+			  	</div>
 			  </div>
 			  <div class="collapsible-body">
-			  	<p><%= bill.title %></p>
-			  	<a href="<%= bill.url %>" target="_blank">View Full Bill</a>
+			  	<p><%= accContent %></p>
+			  	<button class="btn" href="<%= bill.url %>" target="_blank">View Full Bill</button>
+			  	<button class="btn" target="_blank">Follow this Bill</button>
 			  </div>
 			</li>
 	  <% }) %>
