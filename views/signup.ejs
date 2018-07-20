@@ -3,14 +3,18 @@
 	<!-- Modal Structure -->
   <div id="modal1" class="modal">
     <div class="modal-content">
-      <h4>Create Account</h4>
+      <h5>Sign up to create an alert</h5>
+      <img class="google-img center" src="../img/google.png">
+      <br/>
       <label>Name</label>
       <input label="name" type="text" name="name"></input>
       <label>Email</label>
 			<input label="email" type="email" name="email"></input>
+			<label>Password</label>
+			<input label="email" type="password" name="password"></input>
     </div>
     <div class="modal-footer">
-      <a href="/" class="modal-close waves-effect waves-green btn blue">Create Account & Set Alerts</a>
+      <a href="/" class="modal-close waves-effect waves-green btn">Set Alert</a>
     </div>
   </div>
 
@@ -28,10 +32,10 @@
 	</div>
 
 	<div class="col s12">
-		<p>...or tell us a keyword you want us to watch for:</p>
+		<h5>or tell us a keyword you want us to watch for:</h5>
 		<input type="text" name="search"></input>
 		<!-- Modal Trigger -->
-  	<button data-target="modal1" class="btn red right modal-trigger">Create Alert</button>
+  	<button data-target="modal1" class="btn right modal-trigger">Create Alert</button>
 	</div>
 	
 </div>

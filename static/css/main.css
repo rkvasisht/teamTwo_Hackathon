@@ -2,6 +2,7 @@ body {
     display: flex;
     min-height: 100vh;
     flex-direction: column;
+		font-family: helvetica;
   }
 
 main {
@@ -26,18 +27,50 @@ nav,
 }
 
 .shaded {
-	background-color: #DDD;
+	background-color: #4680E4;
 }
 
-#tagOne {
-	display: inline-block;
-
+#alertOne {
+	padding: 20px;
 }
 
-#tagOneButton{
+.alertTag {
 	display: inline-block;
-	padding-left: 450px;
-	font-size: large;
+	font-size: 16px;
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+
+
+.btn {
+	background-color: #00B455;
+}
+
+.google-img {
+	display: block;
+	width: 75%;
+	height: auto;
+}
+
+.delete {
+	font-size: 16px;
+}
+
+.submitChange {
+	margin-top: 1em;
+}
+
+label,
+input {
+	font-size: 16px;
+}
+.alertLabel{
+	color: black;
+}
+
+.account {
+	margin-bottom: .7em;
 }
 
 
